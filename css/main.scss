@@ -1,0 +1,829 @@
+
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src:  url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+  		url('../fonts/MyriadPro-Regular.otf')  format('opentype'),
+	    url('../fonts/MyriadPro-Regular.woff') format('woff'), url('MyriadPro-Regular.ttf')  format('truetype'), 
+	    url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura-Bold';
+  src: url('../fonts/Futura-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Futura-Bold.otf')  format('opentype'),
+	    url('../fonts/Futura-Bold.woff') format('woff'),
+	    url('../fonts/Futura-Bold.ttf')  format('truetype'),
+	    url('../fonts/Futura-Bold.svg#Futura-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaBT-Heavy';
+  src:	url('../fonts/FuturaBT-Heavy.eot?#iefix') format('embedded-opentype'),
+  	  	url('../fonts/FuturaBT-Heavy.otf')  format('opentype'),
+	    url('../fonts/FuturaBT-Heavy.woff') format('woff'), 
+	    url('../fonts/FuturaBT-Heavy.ttf')  format('truetype'), 
+	    url('../fonts/FuturaBT-Heavy.svg#FuturaBT-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'FuturaBT-Book';
+  src: 	url('../fonts/FuturaBT-Book.eot?#iefix') format('embedded-opentype'),
+  	    url('../fonts/FuturaBT-Book.otf')  format('opentype'),
+	    url('../fonts/FuturaBT-Book.woff') format('woff'), 
+	    url('../fonts/FuturaBT-Book.ttf')  format('truetype'), 
+	    url('../fonts/FuturaBT-Book.svg#FuturaBT-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+* {outline: none; box-sizing: border-box;}
+a {text-decoration: none; cursor: pointer;}
+body, html, h1, h2, h3, h4, h5, h6, p, header, footer, div, article, section, aside {padding: 0; margin: 0; position: relative;}
+body, html {height: 100%; }
+input, select, textarea, button {outline: 0; border: 0; appearance: none; -webkit-appearance: none; -moz-appearance: none; -o-appearance: none;}
+
+/* Common Classes */
+.wid100 {width:100%; float: left; }
+.fleft {float: left;}
+.fright {float: right;}
+.listn {list-style: none; margin: 0; padding: 0;}
+.defimg {width: 100%; height: auto;}
+.defimg2 {width: auto; height: auto;}
+.coverimg {width: 100%; height: 100%; object-fit: cover;}
+.containimg {width: 100%; height: 100%; object-fit: contain;}
+.pagewrapper {width: 100%;  margin: 0 auto; max-width: 1366px; padding: 0 25px;}
+.pagewrapper2 {width: 100%; margin: 0 auto; max-width: 990px;}
+img {@extend .defimg}
+.close {width: 35px; height: 35px; background: url(../images/iconset1.png) no-repeat right -35px; position: absolute; right: 10px; top: 10px;}
+.clearfix { display: block; clear: both;}
+.pad-0 { padding: 0;}
+.listn { list-style-type: none;}
+
+
+
+$white : #fff;
+$black : #000;
+$orange : #ff6400;
+$gray : #888888;
+$blue: #00a0e2;
+
+$fontmain : 'MyriadPro-Regular';
+$fonthead : 'Futura-Bold';
+$fontheavy: 'FuturaBT-Heavy';
+$fontbook : 'FuturaBT-Book';
+
+
+
+
+
+
+
+
+.container-1440{ max-width: 1440px; width:100%; margin: 0 auto; box-sizing: border-box; padding: 15px; z-index: 3;}
+.nav-custom{ background: $white; padding: 18px 80px 18px 15px; border: 0px;  box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.4); margin-bottom: 0px;     position: absolute; z-index: 9; width: 100%; top: 17px; border-radius: 0px; height: 106px; }
+.nav-custom .navbar-right li { padding: 25px 20px}
+.nav-custom .navbar-right li a { font-family: $fontmain; font-size: 22px; color: $gray; padding: 0px;}
+.nav-custom .navbar-right li.active a { color: #00a0e2;}
+.nav-custom .navbar-right li:hover a {color: #00a0e2!important; }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus { background: transparent; }
+.navbar-logo {    max-width: 158px; width: 100%; height: 84px; margin-top: -27px;}
+.menu { position: absolute; right: 0px; list-style-type: none; padding: 0px; top: 17px; padding-left: 12px; box-shadow: -5px 0px 10px #d5d5d5; 	 z-index: 10;	
+	padding: 7px 10px 0px 10px;
+	figure { max-width: 35px; width: 100%; height: 35px;
+		img { width: 100%; height: 100%;}
+	}
+	li{ margin-bottom: 15px;}
+	li:first-child { border-bottom: 1px solid #888888; margin-bottom: 0px; padding-bottom: 15px;}
+	li:last-child { padding-top: 7px; margin-bottom: 8px;}
+}
+
+
+
+.home {overflow: hidden;
+	.section-1 {  position: relative; background: url(../images/bg-right.png);     height: 100vh; background-size: cover; background-repeat: no-repeat; background-position: right;
+		.banner {	height: 100vh;
+			img { height: 100%;}
+		}
+		
+		.tank-holder {     max-width: 252px; height: 479px; position: absolute; top: 60%; left: 50%; z-index: 9;
+			transform: translate(-50%, -50%);
+			img { width: 100%; height: 100%; object-fit: contain;}
+		 }
+		
+		.slick-dots { display: none!important;}
+
+		article {     position: absolute; top: 27%; right: 18%; max-width: 517px; width: 100%; z-index: 2;
+			h3 { color: $orange; font-family: $fonthead; font-size: 48px;
+			span { display: block; padding-left: 64px; padding-top:5px;}
+			}
+			.home-texthldr { padding-top: 48px; padding-left: 92px;
+				p { font-size: 30px; font-family: $fontmain; color: $black; margin-bottom: 40px;}
+				.brse-recpe {
+					a { font-family: $fontheavy; font-size: 20px; color: $black; text-decoration: none; padding: 18px 18px; border: 2px solid $black;}
+				}
+				.list-right-home{ margin: 0; padding: 0; margin-top: 75px;
+					li { width: 32%; display: inline-block; vertical-align: text-top;}
+					figure{ max-width: 75px; height: 70px; width: 100%; border: 2px solid #e1e1e1; background: #00a0e2; border-radius: 50%;
+						text-align: center; padding-top: 20px; margin: 0 auto; margin-bottom: 5px;
+						img { width: 34px; height: 32px;}
+					}
+					figcaption{text-align: center;
+						a{ font-family: $fontbook; color: #424242;  text-decoration: none; font-size: 16px; text-transform: uppercase;}
+						}
+
+					li:hover figure { background: #005092}
+					li:hover figcaption a { color: #005092;}
+				}
+			}
+		}
+
+		.home-slider { max-width: 38%; width: 100%; position: absolute; bottom: 0;
+			figure { height: 680px; 
+				img { height: 100%; object-fit: cover;}
+			}
+
+		}
+
+		.social-list-hldr { z-index: 2;}
+	}
+
+	.section-2 { display: none; height: 345px; padding: 40px 78px; background: url(../images/bg-right.png); background-size: cover; background-repeat: no-repeat;
+		h3 { font-family: $fonthead; font-size: 35px; color: $orange;
+			span { display: block; margin-left: 64px; padding-top: 4px; margin-bottom: 19px;}
+		}
+		p { font-family: $fontmain; font-size: 20px; color: $black; margin-bottom: 40px;}
+
+		a { padding: 18px; border: 1px solid $black; color: $black; font-family: $fontheavy;}
+	}
+
+	.section-3 {padding: 20px 0px 150px;background: #fff; height: 480px; display: none;
+		h5 { font-family: $fontheavy; font-size: 24px; color: $orange; text-transform: uppercase; margin-bottom: 32px; text-align: center;}
+		.showmore .slider-hldr figure{     max-width: 250px; height: 137px; width: 100%; margin: 0 auto; opacity: 0.4;padding:0px 15px; padding-top: 10px; transition: 0.3s;
+			img { width: 100%; height: 100%;}
+		 }
+		.showmore .slider-hldr.slick-active.slick-current figure { opacity: 1; max-width: 250px; width: 100%; height: 176px; padding-top: 0px; padding: 0px;}
+		.showmore .slider-hldr figcaption{     text-align: center; max-width: 224px; padding: 0px 15px; margin: 0px; margin: 0 auto;
+			p {  font-size: 18px; color: $black; font-family: $fontheavy;}
+		 }
+		.showmore .slick-dots{ display: none!important;}
+		.showmore .slick-prev { background: url(../images/left-arrow.png);left: 15px; opacity: 1; z-index: 2; height: 28px; width: 17px;}
+		.showmore .slick-prev:before { display: none;}
+		.showmore .slick-next { background: url(../images/right-arrow.png);right: 15px; opacity: 1; z-index: 2; height: 28px; width: 17px;}
+		.showmore .slick-next:before { display: none;}
+		.showmore .slick-track { height: 250px;}
+	}
+
+}
+
+
+
+
+.social-list-hldr { background: rgba( 0, 80, 146, 0.4); position: absolute; bottom: 10px; left: 14px; padding: 10px 13px; z-index: 2;
+			border: 1px solid $white; max-width: 450px; width: 100%;
+			.social-list {	padding: 0px; margin: 0px;
+					li { display: inline-block; width: 7%; text-align: center;
+					a { font-family: $fontmain; font-size: 16px; color: $white;}
+					i { color: $white; font-size: 22px;}
+					p { color: $white; font-family: $fontmain; font-size: 16px;}
+				}
+				li:first-child { max-width: 125px; width: 100%;}
+				li:nth-child(3){ max-width: 50px; width: 100%; text-align:center;}
+				li:last-child { width: 40%;}
+				li:last-child p{ font-family: $fonthead; font-size: 21px;}
+			}
+		}
+
+.social-list-hldr-2 { background: rgba( 0, 80, 146, 0.4); position: relative;  padding: 14px 13px; z-index: 2; width: 100%; margin-top: 50px; float: none;
+			.social-list-2 {	padding: 0px; margin: 0px;
+				>	li { display: inline-block; width: 32%; text-align: center;
+					ul { padding: 0px;
+						> li { width: 20%; display: inline-block;}
+					}
+					
+					a { font-family: $fontmain; font-size: 16px; color: $white;}
+					i { color: $white; font-size: 22px;}
+					p { color: $white; font-family: $fontmain; font-size: 16px;}
+				}
+				
+			}
+		}
+
+
+
+
+
+
+
+.store-location{
+	.section-1{	padding: 0px 45px 60px; min-height: 100vh; position: relative;
+		.select-lc {  margin-bottom: 70px; margin-top: 155px;
+			h2 { float: left; font-family: $fonthead; font-size: 48px; color: #4a4a4a;}
+			div { float: right; background: #005092; height: 56px; max-width: 500px; width: 100%;
+				select {  font-family: $fontmain; font-size: 18px; color: $white; background-color: $blue; height: 50px; border: 2px solid; height: 50px; max-width: 360px; width: 100%; border: 0px; margin-left: 3px; margin-top: 3px; padding-left: 20px; font-size: 24px; background-image: url(../images/arrowdown.png);     background-repeat: no-repeat; background-position: 280px;}
+				button { background: transparent; color: #fff; font-family: $fontmain; font-weight: bold; font-size: 24px; text-transform: uppercase; max-width: 125px; width: 100%;}
+			}
+		}
+
+		.map-sec {
+			h5 { font-family: $fontmain; color: #005092; font-size: 24px; font-weight: bold; text-transform: uppercase; margin-bottom: 20px;}
+
+			.list-map {
+				figure { max-width: 107px; height: 107px; width: 100%; display: inline-block; vertical-align: text-top;
+					img { width: 100%; object-fit: contain; height: 100%;}
+				}
+				li { width: 49%; display: inline-block; vertical-align: text-top; margin-bottom: 17px;}
+				figcaption{ display: inline-block; padding-left: 34px; max-width: 445px; vertical-align: text-top;
+					h6 { font-size:22px; color: $blue; font-family:$fontmain;}
+					p { font-size: 18px; color: $black;font-family:$fontmain; margin-bottom: 15px; }
+					a { text-transform: uppercase; color: $blue; text-decoration: underline;}
+				}
+			}
+		}
+
+		.curve-holder { left:30%;}
+	}
+
+	.list-right-global li figcaption a { color: #424242;}
+}
+
+
+
+
+.product {
+	.section-1{  position: relative; padding: 20px 45px; min-height: 100vh;
+		article{ margin-top: 10%; max-width: 1100px;
+			h2 { font-family: $fonthead; font-size: 48px; color: #444545; margin-bottom: 40px;}
+			h4 { margin-bottom: 22px; font-family: $fontmain; color: #005092; font-size: 30px; font-weight: 900;}
+			p { font-size: 18px; color: $black; line-height: 24px; font-family: $fontmain; margin-bottom: 65px;}
+		}
+
+		.product-slider {
+			.slider-hldr {
+				figure { padding: 0px 10px; max-width: 277px; width: 100%; height: 160px; margin-bottom: 15px;
+					img { width: 100%; height: 100%; object-fit: contain;}
+				 }
+
+				figcaption { padding: 0px 10px; max-width: 277px; width: 100%; text-align: center;
+					h6 { color: #005092; font-family: $fontmain; font-size: 18px;}
+					p { color: $black; font-family: $fontmain; font-size: 18px;}
+				}
+			}
+			.slick-next { background: url(../images/right-arrow.png); right: auto; width: 18px; height: 28px; left: 94%; top: -22px;}
+			.slick-next:before { display: none;}
+			.slick-prev:before { display: none;}
+			.slick-prev { background: url(../images/left-arrow.png); left: 90%; width: 18px; height: 28px; top: -22px;}
+			.slick-dots { display: none!important;}
+		}
+		
+	}
+	.list-right-global li figcaption a { color: #424242}
+}
+
+
+
+
+.aboutus{
+	.section-1 { height: 100vh; position: relative;
+
+		article {    position: absolute; top: 180px; max-width: 600px; width: 100%; right: 8%; z-index: 5;
+			.abttab-list { margin-bottom: 70px;
+				a { font-family: $fontmain; font-size: 24px; color: $black; border-bottom: 2px solid; padding-bottom: 5px; text-decoration: none;}
+				li:first-child{ padding-right: 30px;  margin-right: 30px; border-right: 1px solid black; }
+				li { display: inline-block;}
+			}
+			div { margin-bottom: 40px;}
+			figure { max-width: 66px; height: 66px; width: 100%; display: inline-block;
+				img { width: 100%; height: 100%; object-fit: contain;}
+			}
+			figcaption { display: inline-block; padding-left: 10px;}
+			h4 { font-size: 30px; color: #005092; font-family: $fontmain; font-weight: bold; margin-bottom: 25px;}
+			p { color: $black; font-family: $fontmain; font-size: 18px; margin-bottom: 30px;}
+			h5 { color: $blue; font-size: 22px; font-weight: bold; font-family: $fontmain; margin-bottom: 15px;}
+			> ul > li{ width: 49%; display: inline-block; margin-bottom: 35px;
+				p { margin-bottom: 0!important;}
+			}
+			> ul > li:nth-child(even){ text-align: right;}
+		}
+		.image-hldr {     max-width: 39%; width: 100%; position: absolute; bottom: 0; height: 800px;
+				img{ width: 100%; height: 100%; object-fit:cover;}
+		}
+
+		.list-about {    margin: 0; padding: 0; max-width: 465px; width: 100%; position: absolute; bottom: 90px; z-index: 5;
+			li {     width: 32%; display: inline-block; vertical-align: text-top; 
+				figure {     max-width: 75px; height: 70px; width: 100%; border: 2px solid #e1e1e1; background: #00a0e2; border-radius: 50%; text-align: center; padding-top: 20px; margin: 0 auto; margin-bottom: 5px;
+					img { width: 34px; height: 32px;}
+				}
+				figcaption{ text-align: center;
+					a {     font-family: "FuturaBT-Book";  color: #e1e1e1;  text-decoration: none;  font-size: 16px;  text-transform: uppercase;}	
+				}
+			}
+			li:hover figcaption a{ color: #005092; }
+			li:hover figure { background: #005092;}
+		}
+	}
+}
+
+
+footer { background: #ebebeb; height: 70px; position: fixed; bottom: 0; width: 100%; z-index: 10; display: none;
+	ul{ max-width: 560px; width: 100%; margin: 0 auto; position: absolute; padding: 0; left: 50%; transform: translate(-50%, -50%); top: 15px;
+
+		li{ display: inline-block; width: 32%;
+			figure{ max-width: 75px; height: 70px; width: 100%; border: 2px solid #e1e1e1; background: #00a0e2; border-radius: 50%; text-align: center; padding-top: 20px; margin: 0 auto; margin-bottom: 5px;
+				img { width: 34px; height: 32px;}
+			}
+			figcaption { text-align: center;
+				a { color: #005092; font-family: $fontmain; text-transform: uppercase;}
+			}
+
+			figure:hover { bacground: #005092;}
+		}
+	}
+	
+}
+
+
+
+
+.bg-gray { background: #e1e1e1; height: 246px; opacity: 0.5; position: absolute; width: 100%; left: 0; top: 0;}
+
+.about-txt {     position: absolute; top: 20%; z-index: 5; left: 50px; top: 185px;
+	h3 { font-size: 48px; color: $white; font-family: $fonthead;}
+}
+
+
+
+.abt-hide { display: none;
+	.abttab-list { margin-bottom: 40px;
+				a { font-family: $fontmain; font-size: 24px; color: $black; border-bottom: 2px solid; padding-bottom: 5px; text-decoration: none;}
+				li:first-child{ padding-right: 30px;  margin-right: 30px; border-right: 1px solid black; }
+				li { display: inline-block;}
+			}
+			div { margin-bottom: 40px;}
+			figure { max-width: 66px; height: 66px; width: 100%; display: inline-block;
+				img { width: 100%; height: 100%; object-fit: contain;}
+			}
+			figcaption { display: inline-block; padding-left: 10px;}
+			h4 { font-size: 30px; color: #005092; font-family: $fontmain; font-weight: bold; margin-bottom: 25px;}
+			p { color: $black; font-family: $fontmain; font-size: 18px; margin-bottom: 30px;}
+			h5 { color: $blue; font-size: 22px; font-weight: bold; font-family: $fontmain; margin-bottom: 15px;}
+			> ul > li{ width: 49%; display: inline-block; margin-bottom: 35px;}
+}
+
+
+
+.dscover-list { text-align: center; display: none;
+	> ul > li { width: 32%; display: inline-block; list-style-type: none; vertical-align: text-top;
+		ul > li { width: 32%; display: inline-block; list-style-type: none; vertical-align: text-top;}
+	}
+	> .social-list-hide {  padding: 10px; background: rgba(0, 80, 146, 0.4); border: 1px solid #fff; width: 100%; color: #fff;
+		li > p  { font-family: $fontmain; font-size: 16px;}
+		li > a { color: $white;}
+		li > a > i { font-size: 20px;}
+	}
+}
+
+
+
+
+.blog {  position: relative;
+	.section-1 { padding: 0px 45px 60px; min-height: 100vh; position: relative;
+		.blog-sec { margin-bottom: 70px; margin-top: 155px;
+			h2 { font-family: "Futura-Bold"; font-size: 48px; color: #4a4a4a;}
+		}
+
+		.blog-list { 
+			li { margin-bottom: 25px; padding: 0px 15px; display: inline-block; width: 49%;
+				figure {  max-width: 250px; width: 100%; height: 140px; margin-right: 20px; position: relative; z-index: 2; display: inline-block; vertical-align: text-top;
+					img { height:100%; object-fit: contain;}
+				}
+
+				figcaption { display: inline-block; vertical-align: text-top; max-width: 57%; width: 100%;
+					h5 a{ font-family: $fonthead; font-size: 22px; text-transform: uppercase; margin-bottom: 5px; color: #00a0e2;
+					text-decoration: none;
+					}
+
+					h6 { font-family: $fontmain; font-size: 14px; margin-bottom: 20px;}
+
+					p { font-family: $fontmain; font-size: 18px;}
+				}
+			}
+		}    
+    	
+	}
+
+
+
+
+	.list-right-global li figcaption a { color: #424242}
+}
+
+
+
+
+.recipes { position: relative;
+	.section-1 { padding: 0px 45px 60px; min-height: 100vh; position: relative;
+		.recipe-sec { margin-bottom: 70px; margin-top: 155px;
+			h2 { font-family: "Futura-Bold"; font-size: 48px; color: #4a4a4a;}
+		}
+
+		.recipe-hldr {
+			ul{
+				li{ width: 33%; display: inline-table; text-align: center; padding: 0px 15px; vertical-align: text-top; margin-bottom: 40px;
+					figure { max-width: 295px; width: 100%; height: 150px; margin: 0 auto; margin-bottom: 10px;
+						img { height: 100%; object-fit: cover;}
+					}
+
+					figcaption { 
+						h5 { margin-bottom: 7px;
+							a { text-decoration: none; font-size: 22px; font-family: $fonthead; color: $blue; position: relative; margin-bottom: 5px;}
+						}
+
+						h5 a::after { position: absolute; content: '\f101'; font-size: 18px; font-family: 'FontAwesome'; top: 5px; right: -14px; transition: 0.5s; }
+
+						a:hover { color: #005092;}
+						h5 a:hover::after { right: -30px; }
+
+						p { font-family: $fontmain; color: #888888; font-size: 15px;}
+					}
+
+
+				}
+			}
+		}
+	}
+
+	.list-right-global li figcaption a { color: #424242;}
+}
+
+
+
+
+.events{ position: relative;
+	.section-1 { padding: 0px 45px 60px; min-height: 100vh; position: relative;
+		.events-sec { margin-bottom: 70px; margin-top: 155px;
+			h2 { font-family: "Futura-Bold"; font-size: 48px; color: #4a4a4a;}
+		}
+
+		 
+		.event-list{
+			li { width: 32%; display: inline-table; vertical-align: text-top; padding: 0px 15px; margin-bottom: 30px;
+				figure { max-width: 300px; height: 200px; margin: 0 auto; margin-bottom: 10px;
+					img { height: 100%; object-fit: cover;}
+				}
+				figcaption{ text-align: center;
+					h4 a{ font-family: $fonthead; font-size: 22px; color: $blue; text-decoration: none; text-decoration: none;}
+
+					label { font-weight: normal; font-family: $fontmain; font-size: 18px; color:#005092; margin-top: 4px; margin-bottom: 3px; text-transform: capitalize;}
+
+					h6 { font-family: $fontmain; color: #888888; font-size: 14px;margin-bottom: 10px;}
+
+					p { font-size: 15px; font-family: $fontmain;}
+
+					a.view { text-decoration: none;  text-transform: uppercase; color: #fff; background: #00a0e2; display: block; max-width: 110px; height: 30px; padding-top: 5px; margin: 0 auto; margin-top: 15px; transition: 0.5s; letter-spacing: 1px;}
+
+					a.view:hover { background: #005092;  }
+				}
+			}
+		}
+		
+	}
+
+
+	.list-right-global a { color: #424242;}
+ }
+
+
+.partner {position: relative;
+	.section-1 { padding: 0px 45px 60px; min-height: 100vh; position: relative;
+		.partner-sec { margin-bottom: 70px; margin-top: 155px;
+			h2 { font-family: "Futura-Bold"; font-size: 48px; color: #4a4a4a;}
+		}
+
+		.partner-con {     max-width: 700px; width: 100%; margin: 0 auto; box-sizing: border-box; padding: 0px 15px;
+
+			.tp-partner { text-align: center;
+				h3 { font-family: $fonthead; color: $blue; font-size: 35px; margin-bottom: 16px;}
+
+				p { font-family: $fontmain; font-size: 16px; margin-bottom: 30px;}
+			}
+
+			figure { max-width: 400px;width: 100%; float: left; margin-right: 30px; 
+				img { object-fit: cover;}
+			}
+
+			figcaption { 
+			p { font-family: $fontmain; font-size: 16px; }
+			}
+		}
+	}
+
+	.list-right-global li figcaption a { color: #424242;}
+}
+
+
+
+
+
+.blog-inner { position: relative;
+	.section-1 { padding: 0px 45px 60px; min-height: 100vh; position: relative;
+		.bloginner-sec { margin-bottom: 70px; margin-top: 155px;
+			h2 { font-family: "Futura-Bold"; font-size: 48px; color: #4a4a4a;}
+		}
+	}
+
+	.blginner-hldr { max-width: 750px; width: 100%; box-sizing: border-box; margin: 0 auto;
+		figure { margin-bottom: 30px;}
+		h3 { font-family: "Futura-Bold"; font-size: 30px; color: $blue; margin-bottom: 5px;  }
+		h6 { font-family: $fontmain; margin-bottom: 45px; font-size: 15px;}
+		p { font-family: $fontmain; font-size: 17px;line-height: 27px; margin-bottom: 20px; }
+
+	}
+
+
+
+	.list-right-global li figcaption a { color: #424242;}
+}
+
+
+
+
+
+.recipe-inner { position: relative;
+	.section-1 { padding: 0px 45px 60px; min-height: 100vh; position: relative;
+		.recpinner-sec { margin-bottom: 70px; margin-top: 155px;
+			h2 { font-family: "Futura-Bold"; font-size: 48px; color: #4a4a4a;}
+		}
+	}
+
+	.recipe-hldr { max-width: 95%;
+		h3 {font-family: "Futura-Bold"; font-size: 30px; color: $blue;  margin-bottom: 15px;  }
+		h4 {font-family: $fontmain; font-size: 22px; color: $blue; ; margin-bottom: 25px; text-transform: uppercase; margin-top: 40px;  }
+		h4:first-child { margin-top: 0px;}
+
+		p { margin-bottom: 7px; font-family: $fontmain; font-size: 17px;}
+		span { font-family: $fontmain; font-size: 17px; font-weight: bold; display: block; margin-bottom: 15px; }
+	}
+
+
+
+	.list-right-global li figcaption a { color: #424242;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagination-cs { padding: 0px; margin: 0;  margin-top: 45px; width: 100%; text-align: right;
+	li { display: inline-block;
+		a { text-decoration: none; font-family: $fontmain; color: #005092; background: $white; border: 2px solid #005092; padding: 10px; text-transform: uppercase; transition: .5s;}
+
+		a:hover { background: #005092; color: $white}
+	}
+ }
+
+
+
+
+
+
+.curve-holder{	    width: 100%; position: absolute; min-height: 100vh; top: 50%; left: 23.7%; transform: translate(-50%, -50%); z-index: 2; height: 100%;
+			img { height: 100%;  object-fit: contain;}
+
+		}
+
+
+
+.solanegirl {	    width: 100%; position: absolute; height: 100vh; top: 50%; left: 22%; transform: translate(-50%, -50%); z-index: 2;
+			img { height: 100%;  object-fit: contain;}
+		}
+
+
+
+
+.list-right-global {     position: absolute; right: 20px; top: 290px; padding: 0; list-style: none;
+	li { text-align: center; margin-bottom: 20px;
+		figure {  max-width: 75px; height: 70px; width: 100%; border: 2px solid #e1e1e1; background: #00a0e2; border-radius: 50%; text-align: center; padding-top: 20px; margin: 0 auto; margin-bottom: 5px;
+			img { width: 34px; height: 32px;}
+		}
+
+		figcaption{
+			a{     font-family: "FuturaBT-Book"; color: #e1e1e1; text-decoration: none; font-size: 16px; text-transform: uppercase;}
+		}
+	}
+
+	li:hover figure { background: #005092; }
+	li:hover figcaption a { color: #005092; }
+}
+
+
+
+
+.rights {     position: absolute; bottom: 22px; right: 20px;
+	p { color: #888888; font-size: 14px; font-family: $fontmain;}
+}
+
+
+
+
+
+.pull { position: absolute; bottom: 15px; left: 0; z-index: 100; width: 100%;
+	figure {max-width: 237px; height: 135px; width: 100%; margin: 0 auto; margin-bottom: 10px;
+		img { object-fit: cover; height: 100%;}
+	 }
+	figcaption { text-align: center; 
+		a { font-family: $fontheavy; font-size: 16px; }
+	}
+}
+
+
+
+
+.try {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  background: white;
+}
+
+.try li {
+  width: 19.5%; 
+  display: inline-block;
+  text-align: center;
+  padding: 0px 10px;
+}
+
+.try a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  position: relative;
+  transition: background .3s;
+}
+
+
+/* CHECKBOX CONTAINER STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.home {
+	.container {
+  position: relative;
+  height: auto;
+  border-top: 0;
+}
+
+[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+label {
+  background: transparent;
+  display: block;
+  width: 100%;
+  height: 70px;
+  max-width: 350px;
+  width: 100%;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  transition: top .45s cubic-bezier(.44, .99, .48, 1);
+  transform: translate(-50%, -50%);
+  left:50%;
+  color: $orange;
+  font-size: 20px;
+  font-family: $fontheavy;
+  letter-spacing: 1px;
+}
+/*
+ * use the rule below for testing purposes
+ * label:hover {
+ *    background: yellow;
+ *  }
+ */
+
+label:before,
+label:after {
+  position: absolute;
+}
+
+label:before {
+      content: 'Discover Solane';
+    left: 50%;
+    top: 40px;
+    transform: translate(-50%,-50%);
+}
+
+label:after {
+      content: '\f106';
+    font-family: FontAwesome;
+    top: -10px;
+    font-size: sudo .85s linear infinite alternate;
+    animation: sudo .85s linear infinite alternate;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+@keyframes sudo {
+  from {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  to {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+}
+
+input[type="checkbox"] ~ ul {
+  width: 100%;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height .45s cubic-bezier(.44, .99, .48, 1);
+  position: relative;
+  bottom: -15px;
+}
+/* CHECKED STATE STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+[type="checkbox"]:checked ~ ul {
+  /**
+   * the value of the `max-height` property specifies the transition speed
+   * set a very big value (e.g. 9999px) to see the difference
+   */
+  margin-bottom: 0px;
+  max-height: 300px;
+  padding: 25px 45px 0px;
+}
+
+[type="checkbox"]:checked + label {
+  top: -7px;
+  background: $white;
+  border-radius: 25px;
+}
+
+[type="checkbox"]:checked + label:before {
+  content: 'Discover Solane';
+  top: 20px;
+}
+
+[type="checkbox"]:checked + label:after {
+   content: '\f107';
+    font-family: FontAwesome;
+    top: 20px;
+}
+
+.try li:nth-child(5) {
+  margin-bottom: 20px;
+}
+
+.try > li:last-child { width: 100%;}
+}

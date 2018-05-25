@@ -1,0 +1,1384 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url("../fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Regular.otf") format("opentype"), url("../fonts/MyriadPro-Regular.woff") format("woff"), url("MyriadPro-Regular.ttf") format("truetype"), url("../fonts/MyriadPro-Regular.svg#MyriadPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Futura-Bold';
+  src: url("../fonts/Futura-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Bold.otf") format("opentype"), url("../fonts/Futura-Bold.woff") format("woff"), url("../fonts/Futura-Bold.ttf") format("truetype"), url("../fonts/Futura-Bold.svg#Futura-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'FuturaBT-Heavy';
+  src: url("../fonts/FuturaBT-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaBT-Heavy.otf") format("opentype"), url("../fonts/FuturaBT-Heavy.woff") format("woff"), url("../fonts/FuturaBT-Heavy.ttf") format("truetype"), url("../fonts/FuturaBT-Heavy.svg#FuturaBT-Heavy") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'FuturaBT-Book';
+  src: url("../fonts/FuturaBT-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaBT-Book.otf") format("opentype"), url("../fonts/FuturaBT-Book.woff") format("woff"), url("../fonts/FuturaBT-Book.ttf") format("truetype"), url("../fonts/FuturaBT-Book.svg#FuturaBT-Book") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+* {
+  outline: none;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+body, html, h1, h2, h3, h4, h5, h6, p, header, footer, div, article, section, aside {
+  padding: 0;
+  margin: 0;
+  position: relative; }
+
+body, html {
+  height: 100%; }
+
+input, select, textarea, button {
+  outline: 0;
+  border: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none; }
+
+/* Common Classes */
+.wid100 {
+  width: 100%;
+  float: left; }
+
+.fleft {
+  float: left; }
+
+.fright {
+  float: right; }
+
+.listn {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.defimg, img {
+  width: 100%;
+  height: auto; }
+
+.defimg2 {
+  width: auto;
+  height: auto; }
+
+.coverimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.containimg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; }
+
+.pagewrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1366px;
+  padding: 0 25px; }
+
+.pagewrapper2 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 990px; }
+
+.close {
+  width: 35px;
+  height: 35px;
+  background: url(../images/iconset1.png) no-repeat right -35px;
+  position: absolute;
+  right: 10px;
+  top: 10px; }
+
+.clearfix {
+  display: block;
+  clear: both; }
+
+.pad-0 {
+  padding: 0; }
+
+.listn {
+  list-style-type: none; }
+
+.container-1440 {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 15px;
+  z-index: 3; }
+
+.nav-custom {
+  background: #fff;
+  padding: 18px 80px 18px 15px;
+  border: 0px;
+  box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.4);
+  margin-bottom: 0px;
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  top: 17px;
+  border-radius: 0px;
+  height: 106px; }
+
+.nav-custom .navbar-right li {
+  padding: 25px 20px; }
+
+.nav-custom .navbar-right li a {
+  font-family: "MyriadPro-Regular";
+  font-size: 22px;
+  color: #888888;
+  padding: 0px; }
+
+.nav-custom .navbar-right li.active a {
+  color: #00a0e2; }
+
+.nav-custom .navbar-right li:hover a {
+  color: #00a0e2 !important; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background: transparent; }
+
+.navbar-logo {
+  max-width: 158px;
+  width: 100%;
+  height: 84px;
+  margin-top: -27px; }
+
+.menu {
+  position: absolute;
+  right: 0px;
+  list-style-type: none;
+  padding: 0px;
+  top: 17px;
+  padding-left: 12px;
+  box-shadow: -5px 0px 10px #d5d5d5;
+  z-index: 10;
+  padding: 7px 10px 0px 10px; }
+  .menu figure {
+    max-width: 35px;
+    width: 100%;
+    height: 35px; }
+    .menu figure img {
+      width: 100%;
+      height: 100%; }
+  .menu li {
+    margin-bottom: 15px; }
+  .menu li:first-child {
+    border-bottom: 1px solid #888888;
+    margin-bottom: 0px;
+    padding-bottom: 15px; }
+  .menu li:last-child {
+    padding-top: 7px;
+    margin-bottom: 8px; }
+
+.home {
+  overflow: hidden; }
+  .home .section-1 {
+    position: relative;
+    background: url(../images/bg-right.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right; }
+    .home .section-1 .banner {
+      height: 100vh; }
+      .home .section-1 .banner img {
+        height: 100%; }
+    .home .section-1 .tank-holder {
+      max-width: 252px;
+      height: 479px;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      z-index: 9;
+      transform: translate(-50%, -50%); }
+      .home .section-1 .tank-holder img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain; }
+    .home .section-1 .slick-dots {
+      display: none !important; }
+    .home .section-1 article {
+      position: absolute;
+      top: 27%;
+      right: 18%;
+      max-width: 517px;
+      width: 100%;
+      z-index: 2; }
+      .home .section-1 article h3 {
+        color: #ff6400;
+        font-family: "Futura-Bold";
+        font-size: 48px; }
+        .home .section-1 article h3 span {
+          display: block;
+          padding-left: 64px;
+          padding-top: 5px; }
+      .home .section-1 article .home-texthldr {
+        padding-top: 48px;
+        padding-left: 92px; }
+        .home .section-1 article .home-texthldr p {
+          font-size: 30px;
+          font-family: "MyriadPro-Regular";
+          color: #000;
+          margin-bottom: 40px; }
+        .home .section-1 article .home-texthldr .brse-recpe a {
+          font-family: "FuturaBT-Heavy";
+          font-size: 20px;
+          color: #000;
+          text-decoration: none;
+          padding: 18px 18px;
+          border: 2px solid #000; }
+        .home .section-1 article .home-texthldr .list-right-home {
+          margin: 0;
+          padding: 0;
+          margin-top: 75px; }
+          .home .section-1 article .home-texthldr .list-right-home li {
+            width: 32%;
+            display: inline-block;
+            vertical-align: text-top; }
+          .home .section-1 article .home-texthldr .list-right-home figure {
+            max-width: 75px;
+            height: 70px;
+            width: 100%;
+            border: 2px solid #e1e1e1;
+            background: #00a0e2;
+            border-radius: 50%;
+            text-align: center;
+            padding-top: 20px;
+            margin: 0 auto;
+            margin-bottom: 5px; }
+            .home .section-1 article .home-texthldr .list-right-home figure img {
+              width: 34px;
+              height: 32px; }
+          .home .section-1 article .home-texthldr .list-right-home figcaption {
+            text-align: center; }
+            .home .section-1 article .home-texthldr .list-right-home figcaption a {
+              font-family: "FuturaBT-Book";
+              color: #424242;
+              text-decoration: none;
+              font-size: 16px;
+              text-transform: uppercase; }
+          .home .section-1 article .home-texthldr .list-right-home li:hover figure {
+            background: #005092; }
+          .home .section-1 article .home-texthldr .list-right-home li:hover figcaption a {
+            color: #005092; }
+    .home .section-1 .home-slider {
+      max-width: 38%;
+      width: 100%;
+      position: absolute;
+      bottom: 0; }
+      .home .section-1 .home-slider figure {
+        height: 680px; }
+        .home .section-1 .home-slider figure img {
+          height: 100%;
+          object-fit: cover; }
+    .home .section-1 .social-list-hldr {
+      z-index: 2; }
+  .home .section-2 {
+    display: none;
+    height: 345px;
+    padding: 40px 78px;
+    background: url(../images/bg-right.png);
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .home .section-2 h3 {
+      font-family: "Futura-Bold";
+      font-size: 35px;
+      color: #ff6400; }
+      .home .section-2 h3 span {
+        display: block;
+        margin-left: 64px;
+        padding-top: 4px;
+        margin-bottom: 19px; }
+    .home .section-2 p {
+      font-family: "MyriadPro-Regular";
+      font-size: 20px;
+      color: #000;
+      margin-bottom: 40px; }
+    .home .section-2 a {
+      padding: 18px;
+      border: 1px solid #000;
+      color: #000;
+      font-family: "FuturaBT-Heavy"; }
+  .home .section-3 {
+    padding: 20px 0px 150px;
+    background: #fff;
+    height: 480px;
+    display: none; }
+    .home .section-3 h5 {
+      font-family: "FuturaBT-Heavy";
+      font-size: 24px;
+      color: #ff6400;
+      text-transform: uppercase;
+      margin-bottom: 32px;
+      text-align: center; }
+    .home .section-3 .showmore .slider-hldr figure {
+      max-width: 250px;
+      height: 137px;
+      width: 100%;
+      margin: 0 auto;
+      opacity: 0.4;
+      padding: 0px 15px;
+      padding-top: 10px;
+      transition: 0.3s; }
+      .home .section-3 .showmore .slider-hldr figure img {
+        width: 100%;
+        height: 100%; }
+    .home .section-3 .showmore .slider-hldr.slick-active.slick-current figure {
+      opacity: 1;
+      max-width: 250px;
+      width: 100%;
+      height: 176px;
+      padding-top: 0px;
+      padding: 0px; }
+    .home .section-3 .showmore .slider-hldr figcaption {
+      text-align: center;
+      max-width: 224px;
+      padding: 0px 15px;
+      margin: 0px;
+      margin: 0 auto; }
+      .home .section-3 .showmore .slider-hldr figcaption p {
+        font-size: 18px;
+        color: #000;
+        font-family: "FuturaBT-Heavy"; }
+    .home .section-3 .showmore .slick-dots {
+      display: none !important; }
+    .home .section-3 .showmore .slick-prev {
+      background: url(../images/left-arrow.png);
+      left: 15px;
+      opacity: 1;
+      z-index: 2;
+      height: 28px;
+      width: 17px; }
+    .home .section-3 .showmore .slick-prev:before {
+      display: none; }
+    .home .section-3 .showmore .slick-next {
+      background: url(../images/right-arrow.png);
+      right: 15px;
+      opacity: 1;
+      z-index: 2;
+      height: 28px;
+      width: 17px; }
+    .home .section-3 .showmore .slick-next:before {
+      display: none; }
+    .home .section-3 .showmore .slick-track {
+      height: 250px; }
+
+.social-list-hldr {
+  background: rgba(0, 80, 146, 0.4);
+  position: absolute;
+  bottom: 10px;
+  left: 14px;
+  padding: 10px 13px;
+  z-index: 2;
+  border: 1px solid #fff;
+  max-width: 450px;
+  width: 100%; }
+  .social-list-hldr .social-list {
+    padding: 0px;
+    margin: 0px; }
+    .social-list-hldr .social-list li {
+      display: inline-block;
+      width: 7%;
+      text-align: center; }
+      .social-list-hldr .social-list li a {
+        font-family: "MyriadPro-Regular";
+        font-size: 16px;
+        color: #fff; }
+      .social-list-hldr .social-list li i {
+        color: #fff;
+        font-size: 22px; }
+      .social-list-hldr .social-list li p {
+        color: #fff;
+        font-family: "MyriadPro-Regular";
+        font-size: 16px; }
+    .social-list-hldr .social-list li:first-child {
+      max-width: 125px;
+      width: 100%; }
+    .social-list-hldr .social-list li:nth-child(3) {
+      max-width: 50px;
+      width: 100%;
+      text-align: center; }
+    .social-list-hldr .social-list li:last-child {
+      width: 40%; }
+    .social-list-hldr .social-list li:last-child p {
+      font-family: "Futura-Bold";
+      font-size: 21px; }
+
+.social-list-hldr-2 {
+  background: rgba(0, 80, 146, 0.4);
+  position: relative;
+  padding: 14px 13px;
+  z-index: 2;
+  width: 100%;
+  margin-top: 50px;
+  float: none; }
+  .social-list-hldr-2 .social-list-2 {
+    padding: 0px;
+    margin: 0px; }
+    .social-list-hldr-2 .social-list-2 > li {
+      display: inline-block;
+      width: 32%;
+      text-align: center; }
+      .social-list-hldr-2 .social-list-2 > li ul {
+        padding: 0px; }
+        .social-list-hldr-2 .social-list-2 > li ul > li {
+          width: 20%;
+          display: inline-block; }
+      .social-list-hldr-2 .social-list-2 > li a {
+        font-family: "MyriadPro-Regular";
+        font-size: 16px;
+        color: #fff; }
+      .social-list-hldr-2 .social-list-2 > li i {
+        color: #fff;
+        font-size: 22px; }
+      .social-list-hldr-2 .social-list-2 > li p {
+        color: #fff;
+        font-family: "MyriadPro-Regular";
+        font-size: 16px; }
+
+.store-location .section-1 {
+  padding: 0px 45px 60px;
+  min-height: 100vh;
+  position: relative; }
+  .store-location .section-1 .select-lc {
+    margin-bottom: 70px;
+    margin-top: 155px; }
+    .store-location .section-1 .select-lc h2 {
+      float: left;
+      font-family: "Futura-Bold";
+      font-size: 48px;
+      color: #4a4a4a; }
+    .store-location .section-1 .select-lc div {
+      float: right;
+      background: #005092;
+      height: 56px;
+      max-width: 500px;
+      width: 100%; }
+      .store-location .section-1 .select-lc div select {
+        font-family: "MyriadPro-Regular";
+        font-size: 18px;
+        color: #fff;
+        background-color: #00a0e2;
+        height: 50px;
+        border: 2px solid;
+        height: 50px;
+        max-width: 360px;
+        width: 100%;
+        border: 0px;
+        margin-left: 3px;
+        margin-top: 3px;
+        padding-left: 20px;
+        font-size: 24px;
+        background-image: url(../images/arrowdown.png);
+        background-repeat: no-repeat;
+        background-position: 280px; }
+      .store-location .section-1 .select-lc div button {
+        background: transparent;
+        color: #fff;
+        font-family: "MyriadPro-Regular";
+        font-weight: bold;
+        font-size: 24px;
+        text-transform: uppercase;
+        max-width: 125px;
+        width: 100%; }
+  .store-location .section-1 .map-sec h5 {
+    font-family: "MyriadPro-Regular";
+    color: #005092;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
+  .store-location .section-1 .map-sec .list-map figure {
+    max-width: 107px;
+    height: 107px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: text-top; }
+    .store-location .section-1 .map-sec .list-map figure img {
+      width: 100%;
+      object-fit: contain;
+      height: 100%; }
+  .store-location .section-1 .map-sec .list-map li {
+    width: 49%;
+    display: inline-block;
+    vertical-align: text-top;
+    margin-bottom: 17px; }
+  .store-location .section-1 .map-sec .list-map figcaption {
+    display: inline-block;
+    padding-left: 34px;
+    max-width: 445px;
+    vertical-align: text-top; }
+    .store-location .section-1 .map-sec .list-map figcaption h6 {
+      font-size: 22px;
+      color: #00a0e2;
+      font-family: "MyriadPro-Regular"; }
+    .store-location .section-1 .map-sec .list-map figcaption p {
+      font-size: 18px;
+      color: #000;
+      font-family: "MyriadPro-Regular";
+      margin-bottom: 15px; }
+    .store-location .section-1 .map-sec .list-map figcaption a {
+      text-transform: uppercase;
+      color: #00a0e2;
+      text-decoration: underline; }
+  .store-location .section-1 .curve-holder {
+    left: 30%; }
+.store-location .list-right-global li figcaption a {
+  color: #424242; }
+
+.product .section-1 {
+  position: relative;
+  padding: 20px 45px;
+  min-height: 100vh; }
+  .product .section-1 article {
+    margin-top: 10%;
+    max-width: 1100px; }
+    .product .section-1 article h2 {
+      font-family: "Futura-Bold";
+      font-size: 48px;
+      color: #444545;
+      margin-bottom: 40px; }
+    .product .section-1 article h4 {
+      margin-bottom: 22px;
+      font-family: "MyriadPro-Regular";
+      color: #005092;
+      font-size: 30px;
+      font-weight: 900; }
+    .product .section-1 article p {
+      font-size: 18px;
+      color: #000;
+      line-height: 24px;
+      font-family: "MyriadPro-Regular";
+      margin-bottom: 65px; }
+  .product .section-1 .product-slider .slider-hldr figure {
+    padding: 0px 10px;
+    max-width: 277px;
+    width: 100%;
+    height: 160px;
+    margin-bottom: 15px; }
+    .product .section-1 .product-slider .slider-hldr figure img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; }
+  .product .section-1 .product-slider .slider-hldr figcaption {
+    padding: 0px 10px;
+    max-width: 277px;
+    width: 100%;
+    text-align: center; }
+    .product .section-1 .product-slider .slider-hldr figcaption h6 {
+      color: #005092;
+      font-family: "MyriadPro-Regular";
+      font-size: 18px; }
+    .product .section-1 .product-slider .slider-hldr figcaption p {
+      color: #000;
+      font-family: "MyriadPro-Regular";
+      font-size: 18px; }
+  .product .section-1 .product-slider .slick-next {
+    background: url(../images/right-arrow.png);
+    right: auto;
+    width: 18px;
+    height: 28px;
+    left: 94%;
+    top: -22px; }
+  .product .section-1 .product-slider .slick-next:before {
+    display: none; }
+  .product .section-1 .product-slider .slick-prev:before {
+    display: none; }
+  .product .section-1 .product-slider .slick-prev {
+    background: url(../images/left-arrow.png);
+    left: 90%;
+    width: 18px;
+    height: 28px;
+    top: -22px; }
+  .product .section-1 .product-slider .slick-dots {
+    display: none !important; }
+.product .list-right-global li figcaption a {
+  color: #424242; }
+
+.aboutus .section-1 {
+  height: 100vh;
+  position: relative; }
+  .aboutus .section-1 article {
+    position: absolute;
+    top: 180px;
+    max-width: 600px;
+    width: 100%;
+    right: 8%;
+    z-index: 5; }
+    .aboutus .section-1 article .abttab-list {
+      margin-bottom: 70px; }
+      .aboutus .section-1 article .abttab-list a {
+        font-family: "MyriadPro-Regular";
+        font-size: 24px;
+        color: #000;
+        border-bottom: 2px solid;
+        padding-bottom: 5px;
+        text-decoration: none; }
+      .aboutus .section-1 article .abttab-list li:first-child {
+        padding-right: 30px;
+        margin-right: 30px;
+        border-right: 1px solid black; }
+      .aboutus .section-1 article .abttab-list li {
+        display: inline-block; }
+    .aboutus .section-1 article div {
+      margin-bottom: 40px; }
+    .aboutus .section-1 article figure {
+      max-width: 66px;
+      height: 66px;
+      width: 100%;
+      display: inline-block; }
+      .aboutus .section-1 article figure img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain; }
+    .aboutus .section-1 article figcaption {
+      display: inline-block;
+      padding-left: 10px; }
+    .aboutus .section-1 article h4 {
+      font-size: 30px;
+      color: #005092;
+      font-family: "MyriadPro-Regular";
+      font-weight: bold;
+      margin-bottom: 25px; }
+    .aboutus .section-1 article p {
+      color: #000;
+      font-family: "MyriadPro-Regular";
+      font-size: 18px;
+      margin-bottom: 30px; }
+    .aboutus .section-1 article h5 {
+      color: #00a0e2;
+      font-size: 22px;
+      font-weight: bold;
+      font-family: "MyriadPro-Regular";
+      margin-bottom: 15px; }
+    .aboutus .section-1 article > ul > li {
+      width: 49%;
+      display: inline-block;
+      margin-bottom: 35px; }
+      .aboutus .section-1 article > ul > li p {
+        margin-bottom: 0 !important; }
+    .aboutus .section-1 article > ul > li:nth-child(even) {
+      text-align: right; }
+  .aboutus .section-1 .image-hldr {
+    max-width: 39%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 800px; }
+    .aboutus .section-1 .image-hldr img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .aboutus .section-1 .list-about {
+    margin: 0;
+    padding: 0;
+    max-width: 465px;
+    width: 100%;
+    position: absolute;
+    bottom: 90px;
+    z-index: 5; }
+    .aboutus .section-1 .list-about li {
+      width: 32%;
+      display: inline-block;
+      vertical-align: text-top; }
+      .aboutus .section-1 .list-about li figure {
+        max-width: 75px;
+        height: 70px;
+        width: 100%;
+        border: 2px solid #e1e1e1;
+        background: #00a0e2;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 20px;
+        margin: 0 auto;
+        margin-bottom: 5px; }
+        .aboutus .section-1 .list-about li figure img {
+          width: 34px;
+          height: 32px; }
+      .aboutus .section-1 .list-about li figcaption {
+        text-align: center; }
+        .aboutus .section-1 .list-about li figcaption a {
+          font-family: "FuturaBT-Book";
+          color: #e1e1e1;
+          text-decoration: none;
+          font-size: 16px;
+          text-transform: uppercase; }
+    .aboutus .section-1 .list-about li:hover figcaption a {
+      color: #005092; }
+    .aboutus .section-1 .list-about li:hover figure {
+      background: #005092; }
+
+footer {
+  background: #ebebeb;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+  display: none; }
+  footer ul {
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    padding: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 15px; }
+    footer ul li {
+      display: inline-block;
+      width: 32%; }
+      footer ul li figure {
+        max-width: 75px;
+        height: 70px;
+        width: 100%;
+        border: 2px solid #e1e1e1;
+        background: #00a0e2;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 20px;
+        margin: 0 auto;
+        margin-bottom: 5px; }
+        footer ul li figure img {
+          width: 34px;
+          height: 32px; }
+      footer ul li figcaption {
+        text-align: center; }
+        footer ul li figcaption a {
+          color: #005092;
+          font-family: "MyriadPro-Regular";
+          text-transform: uppercase; }
+      footer ul li figure:hover {
+        bacground: #005092; }
+
+.bg-gray {
+  background: #e1e1e1;
+  height: 246px;
+  opacity: 0.5;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0; }
+
+.about-txt {
+  position: absolute;
+  top: 20%;
+  z-index: 5;
+  left: 50px;
+  top: 185px; }
+  .about-txt h3 {
+    font-size: 48px;
+    color: #fff;
+    font-family: "Futura-Bold"; }
+
+.abt-hide {
+  display: none; }
+  .abt-hide .abttab-list {
+    margin-bottom: 40px; }
+    .abt-hide .abttab-list a {
+      font-family: "MyriadPro-Regular";
+      font-size: 24px;
+      color: #000;
+      border-bottom: 2px solid;
+      padding-bottom: 5px;
+      text-decoration: none; }
+    .abt-hide .abttab-list li:first-child {
+      padding-right: 30px;
+      margin-right: 30px;
+      border-right: 1px solid black; }
+    .abt-hide .abttab-list li {
+      display: inline-block; }
+  .abt-hide div {
+    margin-bottom: 40px; }
+  .abt-hide figure {
+    max-width: 66px;
+    height: 66px;
+    width: 100%;
+    display: inline-block; }
+    .abt-hide figure img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; }
+  .abt-hide figcaption {
+    display: inline-block;
+    padding-left: 10px; }
+  .abt-hide h4 {
+    font-size: 30px;
+    color: #005092;
+    font-family: "MyriadPro-Regular";
+    font-weight: bold;
+    margin-bottom: 25px; }
+  .abt-hide p {
+    color: #000;
+    font-family: "MyriadPro-Regular";
+    font-size: 18px;
+    margin-bottom: 30px; }
+  .abt-hide h5 {
+    color: #00a0e2;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "MyriadPro-Regular";
+    margin-bottom: 15px; }
+  .abt-hide > ul > li {
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 35px; }
+
+.dscover-list {
+  text-align: center;
+  display: none; }
+  .dscover-list > ul > li {
+    width: 32%;
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: text-top; }
+    .dscover-list > ul > li ul > li {
+      width: 32%;
+      display: inline-block;
+      list-style-type: none;
+      vertical-align: text-top; }
+  .dscover-list > .social-list-hide {
+    padding: 10px;
+    background: rgba(0, 80, 146, 0.4);
+    border: 1px solid #fff;
+    width: 100%;
+    color: #fff; }
+    .dscover-list > .social-list-hide li > p {
+      font-family: "MyriadPro-Regular";
+      font-size: 16px; }
+    .dscover-list > .social-list-hide li > a {
+      color: #fff; }
+    .dscover-list > .social-list-hide li > a > i {
+      font-size: 20px; }
+
+.blog {
+  position: relative; }
+  .blog .section-1 {
+    padding: 0px 45px 60px;
+    min-height: 100vh;
+    position: relative; }
+    .blog .section-1 .blog-sec {
+      margin-bottom: 70px;
+      margin-top: 155px; }
+      .blog .section-1 .blog-sec h2 {
+        font-family: "Futura-Bold";
+        font-size: 48px;
+        color: #4a4a4a; }
+    .blog .section-1 .blog-list li {
+      margin-bottom: 25px;
+      padding: 0px 15px;
+      display: inline-block;
+      width: 49%; }
+      .blog .section-1 .blog-list li figure {
+        max-width: 250px;
+        width: 100%;
+        height: 140px;
+        margin-right: 20px;
+        position: relative;
+        z-index: 2;
+        display: inline-block;
+        vertical-align: text-top; }
+        .blog .section-1 .blog-list li figure img {
+          height: 100%;
+          object-fit: contain; }
+      .blog .section-1 .blog-list li figcaption {
+        display: inline-block;
+        vertical-align: text-top;
+        max-width: 57%;
+        width: 100%; }
+        .blog .section-1 .blog-list li figcaption h5 a {
+          font-family: "Futura-Bold";
+          font-size: 22px;
+          text-transform: uppercase;
+          margin-bottom: 5px;
+          color: #00a0e2;
+          text-decoration: none; }
+        .blog .section-1 .blog-list li figcaption h6 {
+          font-family: "MyriadPro-Regular";
+          font-size: 14px;
+          margin-bottom: 20px; }
+        .blog .section-1 .blog-list li figcaption p {
+          font-family: "MyriadPro-Regular";
+          font-size: 18px; }
+  .blog .list-right-global li figcaption a {
+    color: #424242; }
+
+.recipes {
+  position: relative; }
+  .recipes .section-1 {
+    padding: 0px 45px 60px;
+    min-height: 100vh;
+    position: relative; }
+    .recipes .section-1 .recipe-sec {
+      margin-bottom: 70px;
+      margin-top: 155px; }
+      .recipes .section-1 .recipe-sec h2 {
+        font-family: "Futura-Bold";
+        font-size: 48px;
+        color: #4a4a4a; }
+    .recipes .section-1 .recipe-hldr ul li {
+      width: 33%;
+      display: inline-table;
+      text-align: center;
+      padding: 0px 15px;
+      vertical-align: text-top;
+      margin-bottom: 40px; }
+      .recipes .section-1 .recipe-hldr ul li figure {
+        max-width: 295px;
+        width: 100%;
+        height: 150px;
+        margin: 0 auto;
+        margin-bottom: 10px; }
+        .recipes .section-1 .recipe-hldr ul li figure img {
+          height: 100%;
+          object-fit: cover; }
+      .recipes .section-1 .recipe-hldr ul li figcaption h5 {
+        margin-bottom: 7px; }
+        .recipes .section-1 .recipe-hldr ul li figcaption h5 a {
+          text-decoration: none;
+          font-size: 22px;
+          font-family: "Futura-Bold";
+          color: #00a0e2;
+          position: relative;
+          margin-bottom: 5px; }
+      .recipes .section-1 .recipe-hldr ul li figcaption h5 a::after {
+        position: absolute;
+        content: '\f101';
+        font-size: 18px;
+        font-family: 'FontAwesome';
+        top: 5px;
+        right: -14px;
+        transition: 0.5s; }
+      .recipes .section-1 .recipe-hldr ul li figcaption a:hover {
+        color: #005092; }
+      .recipes .section-1 .recipe-hldr ul li figcaption h5 a:hover::after {
+        right: -30px; }
+      .recipes .section-1 .recipe-hldr ul li figcaption p {
+        font-family: "MyriadPro-Regular";
+        color: #888888;
+        font-size: 15px; }
+  .recipes .list-right-global li figcaption a {
+    color: #424242; }
+
+.events {
+  position: relative; }
+  .events .section-1 {
+    padding: 0px 45px 60px;
+    min-height: 100vh;
+    position: relative; }
+    .events .section-1 .events-sec {
+      margin-bottom: 70px;
+      margin-top: 155px; }
+      .events .section-1 .events-sec h2 {
+        font-family: "Futura-Bold";
+        font-size: 48px;
+        color: #4a4a4a; }
+    .events .section-1 .event-list li {
+      width: 32%;
+      display: inline-table;
+      vertical-align: text-top;
+      padding: 0px 15px;
+      margin-bottom: 30px; }
+      .events .section-1 .event-list li figure {
+        max-width: 300px;
+        height: 200px;
+        margin: 0 auto;
+        margin-bottom: 10px; }
+        .events .section-1 .event-list li figure img {
+          height: 100%;
+          object-fit: cover; }
+      .events .section-1 .event-list li figcaption {
+        text-align: center; }
+        .events .section-1 .event-list li figcaption h4 a {
+          font-family: "Futura-Bold";
+          font-size: 22px;
+          color: #00a0e2;
+          text-decoration: none;
+          text-decoration: none; }
+        .events .section-1 .event-list li figcaption label {
+          font-weight: normal;
+          font-family: "MyriadPro-Regular";
+          font-size: 18px;
+          color: #005092;
+          margin-top: 4px;
+          margin-bottom: 3px;
+          text-transform: capitalize; }
+        .events .section-1 .event-list li figcaption h6 {
+          font-family: "MyriadPro-Regular";
+          color: #888888;
+          font-size: 14px;
+          margin-bottom: 10px; }
+        .events .section-1 .event-list li figcaption p {
+          font-size: 15px;
+          font-family: "MyriadPro-Regular"; }
+        .events .section-1 .event-list li figcaption a.view {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: #fff;
+          background: #00a0e2;
+          display: block;
+          max-width: 110px;
+          height: 30px;
+          padding-top: 5px;
+          margin: 0 auto;
+          margin-top: 15px;
+          transition: 0.5s;
+          letter-spacing: 1px; }
+        .events .section-1 .event-list li figcaption a.view:hover {
+          background: #005092; }
+  .events .list-right-global a {
+    color: #424242; }
+
+.partner {
+  position: relative; }
+  .partner .section-1 {
+    padding: 0px 45px 60px;
+    min-height: 100vh;
+    position: relative; }
+    .partner .section-1 .partner-sec {
+      margin-bottom: 70px;
+      margin-top: 155px; }
+      .partner .section-1 .partner-sec h2 {
+        font-family: "Futura-Bold";
+        font-size: 48px;
+        color: #4a4a4a; }
+    .partner .section-1 .partner-con {
+      max-width: 700px;
+      width: 100%;
+      margin: 0 auto;
+      box-sizing: border-box;
+      padding: 0px 15px; }
+      .partner .section-1 .partner-con .tp-partner {
+        text-align: center; }
+        .partner .section-1 .partner-con .tp-partner h3 {
+          font-family: "Futura-Bold";
+          color: #00a0e2;
+          font-size: 35px;
+          margin-bottom: 16px; }
+        .partner .section-1 .partner-con .tp-partner p {
+          font-family: "MyriadPro-Regular";
+          font-size: 16px;
+          margin-bottom: 30px; }
+      .partner .section-1 .partner-con figure {
+        max-width: 400px;
+        width: 100%;
+        float: left;
+        margin-right: 30px; }
+        .partner .section-1 .partner-con figure img {
+          object-fit: cover; }
+      .partner .section-1 .partner-con figcaption p {
+        font-family: "MyriadPro-Regular";
+        font-size: 16px; }
+  .partner .list-right-global li figcaption a {
+    color: #424242; }
+
+.blog-inner {
+  position: relative; }
+  .blog-inner .section-1 {
+    padding: 0px 45px 60px;
+    min-height: 100vh;
+    position: relative; }
+    .blog-inner .section-1 .bloginner-sec {
+      margin-bottom: 70px;
+      margin-top: 155px; }
+      .blog-inner .section-1 .bloginner-sec h2 {
+        font-family: "Futura-Bold";
+        font-size: 48px;
+        color: #4a4a4a; }
+  .blog-inner .blginner-hldr {
+    max-width: 750px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto; }
+    .blog-inner .blginner-hldr figure {
+      margin-bottom: 30px; }
+    .blog-inner .blginner-hldr h3 {
+      font-family: "Futura-Bold";
+      font-size: 30px;
+      color: #00a0e2;
+      margin-bottom: 5px; }
+    .blog-inner .blginner-hldr h6 {
+      font-family: "MyriadPro-Regular";
+      margin-bottom: 45px;
+      font-size: 15px; }
+    .blog-inner .blginner-hldr p {
+      font-family: "MyriadPro-Regular";
+      font-size: 17px;
+      line-height: 27px;
+      margin-bottom: 20px; }
+  .blog-inner .list-right-global li figcaption a {
+    color: #424242; }
+
+.recipe-inner {
+  position: relative; }
+  .recipe-inner .section-1 {
+    padding: 0px 45px 60px;
+    min-height: 100vh;
+    position: relative; }
+    .recipe-inner .section-1 .recpinner-sec {
+      margin-bottom: 70px;
+      margin-top: 155px; }
+      .recipe-inner .section-1 .recpinner-sec h2 {
+        font-family: "Futura-Bold";
+        font-size: 48px;
+        color: #4a4a4a; }
+  .recipe-inner .recipe-hldr {
+    max-width: 95%; }
+    .recipe-inner .recipe-hldr h3 {
+      font-family: "Futura-Bold";
+      font-size: 30px;
+      color: #00a0e2;
+      margin-bottom: 15px; }
+    .recipe-inner .recipe-hldr h4 {
+      font-family: "MyriadPro-Regular";
+      font-size: 22px;
+      color: #00a0e2;
+      margin-bottom: 25px;
+      text-transform: uppercase;
+      margin-top: 40px; }
+    .recipe-inner .recipe-hldr h4:first-child {
+      margin-top: 0px; }
+    .recipe-inner .recipe-hldr p {
+      margin-bottom: 7px;
+      font-family: "MyriadPro-Regular";
+      font-size: 17px; }
+    .recipe-inner .recipe-hldr span {
+      font-family: "MyriadPro-Regular";
+      font-size: 17px;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 15px; }
+  .recipe-inner .list-right-global li figcaption a {
+    color: #424242; }
+
+.pagination-cs {
+  padding: 0px;
+  margin: 0;
+  margin-top: 45px;
+  width: 100%;
+  text-align: right; }
+  .pagination-cs li {
+    display: inline-block; }
+    .pagination-cs li a {
+      text-decoration: none;
+      font-family: "MyriadPro-Regular";
+      color: #005092;
+      background: #fff;
+      border: 2px solid #005092;
+      padding: 10px;
+      text-transform: uppercase;
+      transition: .5s; }
+    .pagination-cs li a:hover {
+      background: #005092;
+      color: #fff; }
+
+.curve-holder {
+  width: 100%;
+  position: absolute;
+  min-height: 100vh;
+  top: 50%;
+  left: 23.7%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  height: 100%; }
+  .curve-holder img {
+    height: 100%;
+    object-fit: contain; }
+
+.solanegirl {
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  top: 50%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  z-index: 2; }
+  .solanegirl img {
+    height: 100%;
+    object-fit: contain; }
+
+.list-right-global {
+  position: absolute;
+  right: 20px;
+  top: 290px;
+  padding: 0;
+  list-style: none; }
+  .list-right-global li {
+    text-align: center;
+    margin-bottom: 20px; }
+    .list-right-global li figure {
+      max-width: 75px;
+      height: 70px;
+      width: 100%;
+      border: 2px solid #e1e1e1;
+      background: #00a0e2;
+      border-radius: 50%;
+      text-align: center;
+      padding-top: 20px;
+      margin: 0 auto;
+      margin-bottom: 5px; }
+      .list-right-global li figure img {
+        width: 34px;
+        height: 32px; }
+    .list-right-global li figcaption a {
+      font-family: "FuturaBT-Book";
+      color: #e1e1e1;
+      text-decoration: none;
+      font-size: 16px;
+      text-transform: uppercase; }
+  .list-right-global li:hover figure {
+    background: #005092; }
+  .list-right-global li:hover figcaption a {
+    color: #005092; }
+
+.rights {
+  position: absolute;
+  bottom: 22px;
+  right: 20px; }
+  .rights p {
+    color: #888888;
+    font-size: 14px;
+    font-family: "MyriadPro-Regular"; }
+
+.pull {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  z-index: 100;
+  width: 100%; }
+  .pull figure {
+    max-width: 237px;
+    height: 135px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+    .pull figure img {
+      object-fit: cover;
+      height: 100%; }
+  .pull figcaption {
+    text-align: center; }
+    .pull figcaption a {
+      font-family: "FuturaBT-Heavy";
+      font-size: 16px; }
+
+.try {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  background: white; }
+
+.try li {
+  width: 19.5%;
+  display: inline-block;
+  text-align: center;
+  padding: 0px 10px; }
+
+.try a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  position: relative;
+  transition: background .3s; }
+
+/* CHECKBOX CONTAINER STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.home {
+  /*
+   * use the rule below for testing purposes
+   * label:hover {
+   *    background: yellow;
+   *  }
+   */
+  /* CHECKED STATE STYLES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */ }
+  .home .container {
+    position: relative;
+    height: auto;
+    border-top: 0; }
+  .home [type="checkbox"] {
+    position: absolute;
+    left: -9999px; }
+  .home label {
+    background: transparent;
+    display: block;
+    width: 100%;
+    height: 70px;
+    max-width: 350px;
+    width: 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    transition: top 0.45s cubic-bezier(0.44, 0.99, 0.48, 1);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    color: #ff6400;
+    font-size: 20px;
+    font-family: "FuturaBT-Heavy";
+    letter-spacing: 1px; }
+  .home label:before,
+  .home label:after {
+    position: absolute; }
+  .home label:before {
+    content: 'Discover Solane';
+    left: 50%;
+    top: 40px;
+    transform: translate(-50%, -50%); }
+  .home label:after {
+    content: '\f106';
+    font-family: FontAwesome;
+    top: -10px;
+    font-size: sudo .85s linear infinite alternate;
+    animation: sudo .85s linear infinite alternate;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    font-size: 30px; }
+@keyframes sudo {
+  from {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px); }
+  to {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px); } }
+  .home input[type="checkbox"] ~ ul {
+    width: 100%;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.45s cubic-bezier(0.44, 0.99, 0.48, 1);
+    position: relative;
+    bottom: -15px; }
+  .home [type="checkbox"]:checked ~ ul {
+    /**
+     * the value of the `max-height` property specifies the transition speed
+     * set a very big value (e.g. 9999px) to see the difference
+     */
+    margin-bottom: 0px;
+    max-height: 300px;
+    padding: 25px 45px 0px; }
+  .home [type="checkbox"]:checked + label {
+    top: -7px;
+    background: #fff;
+    border-radius: 25px; }
+  .home [type="checkbox"]:checked + label:before {
+    content: 'Discover Solane';
+    top: 20px; }
+  .home [type="checkbox"]:checked + label:after {
+    content: '\f107';
+    font-family: FontAwesome;
+    top: 20px; }
+  .home .try li:nth-child(5) {
+    margin-bottom: 20px; }
+  .home .try > li:last-child {
+    width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

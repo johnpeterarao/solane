@@ -1,0 +1,819 @@
+
+@media screen and (min-width: 1900px) and (min-height: 1080px){
+	.aboutus .section-1 article { max-width: 700px!important; right: 9%;}
+
+}
+
+@media only screen and (max-width: 1834px){
+	.home .section-1 article { right: 15%!important;}
+}
+
+@media screen and (min-width: 1701px) and (max-width: ){
+	.aboutus .section-1 article { max-width: 41%!important; }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1700px){
+	.aboutus .section-1 article { max-width: 38%!important; }
+}
+
+
+@media only screen and (max-width: 1600px){
+	.home .section-1 article { right: 13%!important; top: 25%!important;}
+}
+
+@media only screen and (max-width: 1599px){
+	.aboutus .section-1 article { right: 4%!important;}
+}
+
+
+@media only screen and (max-width: 1580px){
+	.home .section-1 article { right: 10%!important;}
+}
+
+@media only screen and (max-width: 1558px){
+	.home .section-1 .home-slider { max-width: 40%!important;}
+	.aboutus .section-1 .image-hldr { max-width: 40%!important;}
+	.blog .section-1 .blog-list li figure { margin-right: 10px!important;}
+	.blog .section-1 .blog-list li figcaption{ max-width: 52%!important;}
+}
+
+@media only screen and (max-width: 1520px){
+	.aboutus .section-1 article { max-width: 550px!important;}
+}
+
+
+@media only screen and (max-width: 1462px){
+	.home .section-1 article {right: 7%!important;}
+	.blog .section-1 .blog-list li figcaption h6 { margin-bottom: 10px!important;}
+}
+
+@media only screen and (max-width: 1439px){
+	.recipes .section-1 .recipe-hldr .recipe-list { max-width: 95%;}
+	.events .section-1 .evnt-hldr { max-width: 98%!important;}
+}
+
+@media only screen and (max-width: 1408px){
+	.blog .section-1 .blog-list li figcaption { max-width: 45%!important;}
+}
+
+
+@media only screen and (max-width: 1394px){
+	.home .section-1 .home-slider { max-width: 42%!important;}
+	.aboutus .section-1 .image-hldr { max-width: 42%!important;}
+}
+
+@media only screen and (max-width: 1366px){
+	.home .section-1 article { top: 21%!important;}
+}
+
+@media only screen and (max-width: 1348px){
+	.aboutus .section-1 article { max-width: 480px!important;}
+}
+
+@media only screen and (max-width: 1329px){
+	.product .section-1 article { margin-top: 140px!important;}
+}
+
+@media only screen and (max-width: 1320px){
+	.home .section-1 article { right: 2%!important;}
+	.blog .section-1 .blog-list li figure { max-width: 200px!important;}
+	.blog .section-1 .blog-list li figcaption { max-width: 54%!important}
+	.blog .section-1 .blog-list li figure img { object-fit: cover!important;}
+}
+
+@media only screen and (max-width: 1305px){
+	.nav-custom .navbar-right li { padding: 25px 15px!important;}
+}
+
+@media only screen and (max-width: 1260px){
+	.product .section-1 article { max-width: 1000px!important;}
+	.blog .section-1 .blog-list li figcaption h5 a { font-size: 20px!important}
+	.blog .section-1 .blog-list li figcaption p { font-size: 16px!important;}
+	.blog .section-1 .blog-list li figcaption { max-width: 43%!important;}
+
+}
+
+@media only screen and (max-width: 1254px){
+	.store-location .section-1 .map-sec .list-map figcaption { max-width: 400px!important;}
+}
+
+@media only screen and (max-width: 1253px){
+	.home .section-1 .home-slider{ max-width: 44%!important;}
+	.aboutus .section-1 .image-hldr { max-width: 44%!important;}
+}
+
+@media only screen and (max-width: 1234px){
+	.aboutus .section-1 article { max-width: 420px!important;}
+	.aboutus .section-1 article h4 { margin-bottom: 15px!important}
+	.aboutus .section-1 article figcaption{ display: block!important; text-align: center;}
+	.aboutus .section-1 article figure { display: block!important; margin: 0 auto;}
+	.recipes .section-1 .recipe-hldr .recipe-list { max-width: 93%!important;}
+}
+
+@media only screen and (max-width: 1225px){
+	.nav-custom .navbar-right li a { font-size: 18px!important;} 
+}
+
+@media only screen and (max-width: 1220px){
+	.home .section-1 article { top: 25%!important}
+}
+
+@media only screen and (max-width: 1208px){
+	.home .section-1 article { max-width: 485px!important;}
+	.home .section-1 article h3 { font-size: 40px!important;}
+}
+
+
+@media only screen and (max-width: 1198px){
+	.store-location .section-1 .map-sec .list-map figcaption { max-width: 340px!important;}
+}
+
+@media only screen and (max-width: 1195px){
+	.store-location .section-1 .select-lc { margin-top: 150px!important;}
+	.product .section-1 article { margin-top: 150px!important;}
+	.home .section-1 article h3 { font-size: 40px!important;}
+	.home .section-1 article .home-texthldr { padding-top: 30px!important;}
+	.home .section-1 article .home-texthldr p { font-size: 25px!important;}
+	.home .section-1 .social-list-hldr { display: none;}
+	.dscover-list { display: block!important;}
+	.blog .section-1 .blog-sec { margin-top: 150px!important}
+	.recipes .section-1 .recipe-sec { margin-top: 150px!important;}
+	.events .section-1 .events-sec { margin-top: 150px!important}
+	.partner .section-1 .partner-sec { margin-top: 150px!important;}
+}
+
+@media only screen and (max-width: 1164px){
+	.home .section-1 article .home-texthldr { padding-left: 62px!important;}
+}
+
+@media only screen and (max-width: 1162px){
+	.store-location .section-1 .map-sec .list-map figcaption { padding-left: 15px!important;}
+}
+
+@media only screen and (max-width: 1160px){
+	.aboutus .section-1 article p { font-size: 16px!important;}
+	.aboutus .section-1 article { max-width: 350px!important;}
+}
+
+@media only screen and (max-width: 1151px){
+	.home .section-1 article h3 { font-size: 35px!important;}
+	.home .section-1 article .home-texthldr p { font-size: 20px!important;}
+	.home .section-1 article{ max-width: 480px!important;}
+}
+
+
+
+@media only screen and (max-width: 1140px){
+	.home .section-1 .home-slider { max-width: 46%!important;}
+	.aboutus .section-1 .image-hldr { max-width: 46%!important;}
+	.home .section-1 article .home-texthldr { padding-left: 40px!important}
+	.home .section-1 article h3 span { padding-left: 40px!important}
+	.home .section-1 article { max-width: 420px!important;}
+}
+
+@media only screen and (max-width: 1107px){
+	.home .section-1 .social-list-hldr { bottom: 70px!important; }
+}
+
+@media only screen and (min-width: 1101px){
+	.product .section-1 article { max-width: 90%!important;}
+}
+
+@media only screen and (max-width: 1100px){
+	.product .section-1 article { max-width: 90%!important;}
+	.store-location .section-1 .map-sec .list-map figcaption { max-width: 285px!important;}
+}
+
+@media only screen and (max-width: 1092px){
+	.nav-custom .navbar-right li  { padding: 25px 10px!important;}
+	.events .section-1 .evnt-hldr { max-width: 95%!important;}
+}
+
+@media only screen and (max-width: 1074px){
+	.home .section-1 article { max-width: 375px!important;}
+	.blog .section-1 .blog-list li figure { display: block!important; margin-bottom: 10px!important;}
+	.blog .section-1 .blog-list li figcaption { max-width: 87%!important}
+}
+
+@media only screen and (max-width: 1070px){
+	.aboutus .section-1 .list-about { max-width: 420px!important;}
+
+}
+
+@media only screen and (max-width: 1063px){
+	.aboutus .section-1 .solanegirl { left: 14%!important;}
+	.aboutus .section-1 .curve-holder { left: 16.7%!important;}
+	.aboutus .section-1 .image-hldr { max-width: 40%!important; height: 650px!important;}
+	.aboutus .section-1 .list-about { max-width: 300px!important}
+	.aboutus .section-1 .list-about li figure { max-width: 65px!important; height: 60px!important; padding-top: 15px!important;}
+	.aboutus .section-1 .list-about li figure img { width: 29px!important; height: 27px!important;}
+}
+
+@media only screen and (max-width: 1046px){
+	.home .section-1 .home-slider { max-width: 46%!important;}
+	.aboutus .section-1 .image-hldr { max-width: 39%!important;}
+}
+
+/*@media (min-width: 1024px) and ( max-height: 768px){
+	.aboutus .section-1 article { top: 150px!important;}
+}*/
+
+@media only screen and (max-width: 1024px){
+	.aboutus .section-1 article div, .aboutus .section-1 article .abttab-list { margin-bottom: 20px!important;}
+	.aboutus .section-1 .rights { bottom: 0px!important}
+
+    .aboutus .section-1 .solanegirl {   position: relative!important;}
+    .aboutus .section-1 article { position: relative!important; left: 0!important; max-width: 700px!important; width: 100%!important; margin: 0 auto; padding: 0px 15px; top: 5%!important; margin-bottom: 30px;}
+    .aboutus .section-1 article figure { display: inline-block!important;}
+    .aboutus .section-1 article figcaption { display: inline-block!important;}
+    /*.bg-gray { height: 130px!important;}*/
+    .about-txt { top: 60px!important; }
+    .about-txt h3 { font-size: 40px!important;}
+    .aboutus .bg-gray { display: none;}
+    .aboutus .section-1 .social-list-hldr { position: relative!important; bottom: 0!important; max-width: none!important; left: 0!important; }
+    .aboutus .section-1 .social-list-hldr .social-list { text-align: center;}
+    .aboutus .section-1 .social-list-hldr .social-list li:last-child { width: 18%!important}
+    .aboutus .section-1 .rights { position: relative!important; right: 0!important; width: 100%; padding: 15px 15px; text-align: center;}
+
+      /*.aboutus .section-1 .list-about li { display: block!important; width: 100%!important; margin-bottom: 10px;}
+      .aboutus .section-1 .list-about { max-width: 120px!important; right: 12px; left: auto;}*/
+
+    .aboutus .section-1 article span{ display: none}
+    .abt-hide { display: block; max-width: 400px; position: absolute; top: 170px; right: 15px; display: block!important;}
+    .aboutus .section-1 .list-about { max-width: 450px!important; right: 0; bottom: 15px!important;}
+
+    .recipes .section-1 .recipe-hldr ul li figcaption h5 a { font-size: 20px!important;}
+}
+
+@media only screen and (max-width: 1016px){
+	.store-location .section-1 .map-sec .list-map figcaption h6 { font-size: 20px!important;}
+	.store-location .section-1 .map-sec .list-map figcaption p { font-size: 16px!important;}
+	.home .section-1 article { max-width: 335px!important;}
+	.home .section-1 article h3 span { padding-left: 0px!important;}
+}
+
+
+@media only screen and (max-width: 1012px){
+	.nav-custom .navbar-right li a { font-size: 16px!important;}
+	.abt-hide { max-width: 362px!important;}
+}
+
+
+@media only screen and (max-width: 1005px){
+	.aboutus .section-1 .image-hldr { max-width: 43%!important; }
+}
+
+@media only screen and (max-width: 999px){
+	.store-location .section-1 .select-lc h2{ font-size: 40px!important;}
+	.store-location .section-1 .select-lc div select { height: 40px!important; font-size: 20px!important;}
+	.store-location .section-1 .select-lc div { height: 47px!important;}
+	.store-location .section-1 .select-lc{ margin-bottom: 40px!important;}
+	.store-location .section-1 .select-lc div button { font-size: 20px!important;}
+	.store-location .section-1 .map-sec .list-map figcaption h6 { font-size: 20px!important;}
+	.store-location .section-1 .map-sec .list-map figcaption p { font-size: 16px!important;}
+	.store-location .section-1 .map-sec .list-map figcaption { max-width: 265px!important;}
+	.blog .section-1 .blog-sec h2 { font-size: 40px!important;}
+	.recipes .section-1 .recipe-sec h2 { font-size: 40px!important;}
+	.recipes .section-1 .recipe-hldr ul li figcaption h5 a:hover::after { right: -10px!important;}
+	.events .section-1 .events-sec h2 { font-size: 40px!important;}
+	.partner .section-1 .partner-sec h2 { font-size: 40px!important;}
+}
+
+
+@media only screen and (max-width: 982px){
+	.home .section-1 .tank-holder { max-width: 220px!important;  height: 420px!important;}
+	.aboutus .section-1 article div { margin-bottom: 20px!important;}
+	.home .section-1 .solanegirl { left: 10%!important;}
+	.home .section-1 .curve-holder { left: 12.7%!important;}
+	.home .section-1 .home-slider { max-width: 38%!important;}
+	.home .section-1 .home-slider figure { height: 739px!important;}
+
+
+}
+
+@media only screen and (max-width: 962px){
+	/*.home .section-1 .home-slider { max-width: 50%!important;}
+	.home .section-1 article { max-width: 400px!important;}
+	.aboutus .section-1 .image-hldr{ max-width: 40%!important;}
+*/
+}
+
+@media only screen and (max-width: 958px){
+	.store-location .section-1 .map-sec .list-map figcaption { max-width: 260px!important}
+}
+
+@media only screen and (max-width: 950px){
+	.abt-hide { max-width: 350px!important;}
+}
+
+@media only screen and (max-width: 949px){
+	.store-location .section-1 .map-sec .list-map figcaption { max-width: 220px!important}
+}
+
+@media only screen and (max-width: 945px){
+	.nav-custom .navbar-right li a { font-size: 15px!important;}
+}
+
+@media only screen and (max-width: 940px){
+	.abt-hide { max-width: 300px!important;}
+	.recipes .section-1 .recipe-hldr ul li { width: 49%!important;}
+	.events .section-1 .event-list li { width: 49%!important;}
+	.events .section-1 .evnt-hldr { max-width: 91%!important;}
+}
+
+@media only screen and (max-width: 930px){
+	.store-location .section-1 .select-lc h2 { font-size: 35px!important;}
+	.product .section-1 article h2 { font-size: 35px!important; margin-bottom: 40px!important;}
+	.product .section-1 article h4 { font-size: 24px!important; margin-bottom: 15px!important;}
+	.blog .section-1 .blog-sec h2 { font-size: 35px!important;}
+	.recipes .section-1 .recipe-sec h2 { font-size: 35px!important;} 
+	.events .section-1 .events-sec h2 { font-size: 35px!important;}
+	.partner .section-1 .partner-sec h2 { font-size: 35px!important;}
+
+}
+
+
+
+/**************BURGER******************/
+
+@media only screen and (max-width: 915px){
+	.navbar-header { float: none;}
+      .navbar-left,.navbar-right { float: none !important;  }
+      .navbar-toggle { display: block; float: left; background: transparent!important; border: 0px; margin-left: 10px; margin-top: 36px; }
+      .navbar-collapse { border-top: 0px solid transparent; box-shadow: inset 0 0px 0 rgba(255,255,255,0.1); background: #fff; position: relative; z-index: 99; }
+      .navbar-fixed-top { top: 0; border-width: 0 0 1px; }
+      .navbar-collapse.collapse { display: none!important; }
+      .navbar-nav {float: none!important;}
+      .navbar-nav>li { float: none!important; }
+      .navbar-nav>li>a { padding-top: 10px; padding-bottom: 10px; }
+      .collapse.in{  display:block !important; }
+      .nav-custom .navbar-right li a { font-size: 19px!important;} 
+      
+      .nav-ul { margin-top: 53px; }
+      .navbar-brand { height: inherit; padding: 0px; }
+      .navbar-logo { margin-top: 0px!important; margin: 0 auto;}
+      .nav-custom { position: relative!important; top: 0!important; padding: 0px!important;}
+      .menu { top: 0!important;}
+      .navbar-toggle .icon-bar{ width: 35px; height: 4px;}
+
+
+      .store-location .section-1 .select-lc { margin-top: 20px!important;}
+      .store-location .section-1 { padding: 20px!important;}
+      .product .section-1 article { margin-top: 40px!important;}
+
+      .aboutus .section-1 { height: 500px!important;}
+      .aboutus .section-1 .solanegirl { height: 500px!important; left: 24%!important; max-width: 514px; position: relative!important;}
+      .aboutus .section-1 .curve-holder { height: 500px!important; min-height: 500px!important;     left: 25.7%!important;}
+      .aboutus .section-1 .image-hldr { height: 380px!important; max-width: 42%!important}
+      .aboutus .section-1 article { position: relative!important; left: 0!important; max-width: 700px!important; width: 100%!important; margin: 0 auto; padding: 0px 15px; top: 5%!important;}
+
+      .aboutus .section-1 article figure { display: inline-block!important;}
+      .aboutus .section-1 article figcaption { display: inline-block!important;}
+      .bg-gray { height: 130px!important;}
+
+      .about-txt { top: 60px!important; }
+      .about-txt h3 { font-size: 40px!important;}
+
+      .aboutus .bg-gray { display: none;}
+
+      /*.aboutus .section-1 .list-about li { display: block!important; width: 100%!important; margin-bottom: 10px;}
+      .aboutus .section-1 .list-about { max-width: 120px!important; right: 12px; left: auto;}*/
+
+      .aboutus .section-1 article span{ display: none}
+      .abt-hide { display: block; max-width: 400px; position: absolute; top: 40px; right: 15px; display: block!important;}
+      .aboutus .section-1 .list-about { right: auto!important;}
+      .product .section-1 { padding: 20px!important;}
+      .store-location .section-1 .select-lc { margin-top: 40px!important}
+      .abt-hide { max-width: 350px!important; top: 35px!important;}
+
+      .home .section-1 .home-slider figure { height: 600px!important;}
+      .home .section-1 { height: 88vh!important;}
+
+      .blog .section-1 .blog-sec { margin-top: 40px!important}
+      .blog .section-1 { padding: 20px!important; padding-bottom: 70px!important;}
+      .blog .section-1 .blog-list li { width: 100%!important; display: block!important;}
+      .blog .section-1 .blog-list li figure { display: inline-block!important;}
+      .blog .section-1 .blog-list li figcaption { display: inline-block!important; max-width: 64%!important;}
+
+      .recipes .section-1 .recipe-sec { margin-top: 40px!important;}
+      .recipes .section-1 { padding: 20px!important}
+
+      .events .section-1 .events-sec { margin-top: 40px!important}
+      .events .section-1 { padding: 20px!important;}
+
+      .partner .section-1 .partner-sec { margin-top: 40px!important;}
+      .partner .section-1 { padding: 20px!important}
+      .partner .section-1 .partner-con { max-width: 78%!important;}
+      .partner .section-1 .partner-con figure { max-width: 330px!important;}
+}
+
+
+@media only screen and (max-width: 896px){
+	.store-location .section-1 .select-lc div { float: none!important;}
+	.store-location .section-1 .select-lc h2 { float: none!important; margin-bottom: 40px;}
+	.store-location .section-1 .map-sec .list-map figcaption p { font-size: 16px!important;}
+}
+
+@media only screen and (max-width: 888px){
+	.home .section-1 .tank-holder { max-width: 190px!important; height: 390px!important;}
+	.home .section-1 article { max-width: 360px!important;}
+	.home .section-1 article h3 { text-align: center;}
+	.home .section-1 article h3 span { padding-left: 0px!important;}
+	.store-location .section-1 .map-sec .list-map figcaption { padding-left: 5px!important; max-width: 190px!important;}
+	.home .section-1 .home-slider { max-width: 46%!important}
+
+
+}
+
+@media only screen and (max-width: 871px){
+	.home .section-1 article { max-width: 325px!important;}
+	.blog .section-1 .blog-list li figcaption { max-width: 58%!important;}
+	.events .section-1 .evnt-hldr { max-width: 89%!important;}
+}
+
+
+@media only screen and (max-width: 844px){
+	 [type="checkbox"]:checked ~ ul { max-height: 327px!important;}
+	 .recipes .section-1 .recipe-hldr .recipe-list { max-width: 88%!important;}
+}
+
+@media only screen and (max-width: 838px){
+	.home .section-1 .curve-holder { left: 12.7%!important}
+	.store-location .section-1 .map-sec .list-map li { width: 100%!important;}
+	.store-location .section-1 .curve-holder { display: none;}
+	.store-location .social-list-hldr {position: relative!important; max-width: 100%!important; left: 0!important; }
+	.store-location .section-1 .map-sec .list-map figcaption { max-width: 489px!important; width: 100%!important;}
+	.social-list-hldr .social-list li:first-child { max-width: 37%!important;}
+	.store-location .rights { max-width: 100%!important; position: relative!important; right: auto;text-align: center;    padding: 20px 0px!important;}
+	.store-location .section-1 { padding: 20px 0px 0px 0px!important;}
+	.product .social-list-hldr {position: relative!important; max-width: 100%!important; left: 0!important; }
+	.product .section-1 { padding: 0px!important;}
+	.product .section-1 article { max-width: 85%!important;}
+	.product .rights { max-width: 100%!important; position: relative!important; right: auto;text-align: center;    padding: 20px 0px!important;}
+	.product .section-1 { height: auto!important;}
+	.product .list-right-global { top: 80px!important;}
+	.home .section-1 .home-slider { max-width: 47%!important;}
+	.home .social-list-hldr .social-list li:first-child { max-width: 30%!important;}
+	.curve-holder img { object-fit: cover!important;}
+	.aboutus .section-1 .curve-holder img{ object-fit: contain!important;}
+	.aboutus .section-1 .image-hldr { max-width: 43%!important;}
+	.social-list-hldr { position: relative!important; max-width: 100%!important; left: 0!important;}
+	.aboutus .section-1 .rights {     position: relative!important; bottom: 0; text-align: center; width: 100%; right: 0!important;}
+	.aboutus .section-1 .list-about {left: auto!important; bottom: 20px!important; max-width: 420px!important; }
+	.product .section-1 article { margin-top: 20px!important;}
+	.aboutus .section-1 .social-list-hldr .social-list li:first-child { max-width: 16%!important;}
+	.bg-gray { height: 90px!important}
+	.store-location .section-1 .select-lc { margin-top: 0px!important;}
+	.blog .section-1 .blog-sec { margin-top: 0px!important;}
+	.blog .section-1 { padding: 20px 0px 0px 0px!important; }
+    .pagination-cs { margin-bottom: 30px!important;}
+    .blog .rights { position: relative; bottom: 0px; right: 0; text-align: center; padding: 10px 0px 20px;}
+
+    .recipes .section-1 .recipe-sec { margin-top: 0px!important;}
+    .recipes .section-1 { padding: 20px 0px 0px 0px!important}
+    .recipes .rights {     position: relative; bottom: 0px; right: 0; text-align: center; padding: 10px 0px 20px;}
+    .events .section-1 .events-sec { margin-top: 0px!important;}
+    .events .section-1 { padding: 20px 0px 0px 0px!important;}
+    .events .rights { position: relative; bottom: 0px; right: 0; text-align: center; padding: 10px 0px 20px; }
+
+    .partner .section-1 .partner-sec { margin-top: 0px!important}
+    .partner .section-1 { padding: 20px 0px 0px 0px!important;}
+    .partner .rights { position: relative; bottom: 0px; right: 0; text-align: center; padding: 10px 0px 20px;}
+}	
+
+@media only screen and (max-width: 824px){
+	.home .section-1 { height: 50vh!important; background: none!important;}
+	.home .section-1 article { display: none!important;}
+	.home .section-1 .solanegirl { left: 24%!important; height: 50vh!important;}
+	.home .section-1 .curve-holder { min-height: 50vh!important; left: 31.7%!important;}
+	.home .section-1 .solanegirl img{ object-fit: cover!important;}
+	.home .section-1 .rights { display: none;}
+	.home .section-3 .rights { display: block; bottom: 0; position: relative; right: 0; text-align: center; padding: 15px 15px;}
+	.home .section-1 .tank-holder { max-width: 190px!important; height: 390px!important;     left: 76%!important;}
+	.home .section-1 .social-list-hldr { display: none;}
+	.pull { display: none;}
+	.home .section-1 .home-slider { max-width: 57%!important;}
+	.section-2 { display: block!important;}
+	.home .section-1 .home-slider figure { height: 375px!important;}
+	footer { display: block!important;}
+	.home .section-3 { display: block!important;     padding: 20px 0px 100px!important; height: auto!important;}
+	.home .section-2 h3 span { margin-left: 0px!important;}
+	.home .section-2 p { margin-bottom: 60px!important;}
+	.blog .rights{ padding: 0px 0px 120px!important; }
+	.store-location .section-1 .list-right-global { display: none;}
+	.store-location .rights { padding: 20px 0px 100px!important;}
+	.blog .list-right-global { display: none;}
+	.blog .section-1 .blog-list li figcaption { max-width: 68%!important}
+
+	.recipes .list-right-global { display: none!important;}
+	.recipes .rights { padding: 0px 0px 120px!important;}
+	.recipes .section-1 .recipe-hldr .recipe-list { max-width: 100%!important;}
+
+	.events .list-right-global { display: none;}
+	.events .section-1 .evnt-hldr { max-width: 100%!important;}
+	.events .rights {
+    padding: 0px 0px 120px!important;}
+
+    .partner .list-right-global { display: none;}
+    .partner .rights {
+    padding: 0px 0px 120px!important;}
+}
+
+@media only screen and (max-width: 822px){
+	.abt-hide p { font-size: 16px!important;}
+	.abt-hide h4 { margin-bottom: 15px!important; font-size: 26px!important;}
+	.abt-hide { max-width: 300px!important;}
+
+}
+
+@media only screen and (max-width: 810px){
+	.home .section-1 article { max-width: 350px!important;}
+
+}
+
+
+
+@media only screen and (max-width: 800px){
+	.store-location .section-1 .map-sec .list-map { max-width: 600px!important;}
+	.list-right-global { display: none!important;}
+	.product .section-1 article { max-width: 100%!important;}
+
+	/*HOME RESPONSIVE*/
+	.home .section-1 { height: 50vh!important; background: none!important;}
+	.home .section-1 article { display: none!important;}
+	.solanegirl { left: 18%!important; height: 50vh!important;}
+	.curve-holder { min-height: 50vh!important;}
+	.solanegirl img{ object-fit: cover!important;}
+	.home .section-1 .rights { display: none;}
+	.home .section-3 .rights { display: block; bottom: 0; position: relative; right: 0; text-align: center; padding: 15px 15px;}
+	.home .section-1 .tank-holder { max-width: 190px!important; height: 390px!important;     left: 76%!important;}
+	.home .section-1 .social-list-hldr { display: none;}
+	.pull { display: none;}
+	.home .section-1 .home-slider { max-width: 65%!important;}
+	.section-2 { display: block!important;}
+	.home .section-1 .home-slider figure { height: 375px!important;}
+	footer { display: block!important;}
+	.home .section-3 { display: block!important;     padding: 20px 0px 100px!important; height: auto!important;}
+
+	/*END OF HOME RESPONSIVE*/
+
+	/*about responsive*/
+	.aboutus .section-1 { height: 431px!important;}
+	.aboutus .section-1 .solanegirl { height: 431px!important; left: 35%!important; max-width: 560px;}
+	.aboutus .section-1 .curve-holder { height: 431px!important; min-height: 431px!important; left: 24.7%!important;}
+	.aboutus .section-1 .image-hldr { max-width: 62%!important;}
+	.aboutus .section-1 .curve-holder img { object-fit: cover!important;}
+	.aboutus .section-1 .rights { padding-bottom: 120px!important}
+	.product .rights { padding: 20px 0px 100px!important}
+	.store-location .rights { padding: 20px 0px 100px!important}
+	.about-txt { left: 25px!important; top: 20px!important;}
+	.aboutus .section-1 .list-about { display: none;}
+	.abt-hide{ display: none!important;}
+	.aboutus .section-1 article span { display: block;}
+}
+
+
+
+
+@media only screen and (max-width: 755px){
+	.social-list-hldr .social-list li:last-child { width: 255px!important;}
+	.aboutus .section-1 .curve-holder { left: 27.9%!important;}
+}
+
+@media only screen and (max-width: 728px){
+	.aboutus .section-1 .social-list-hldr .social-list li:first-child { max-width: 125px!important;}
+	.blog .section-1 .blog-list li figcaption { max-width: 60%!important;}
+}
+
+@media only screen and (max-width: 721px){
+	.aboutus .section-1 .social-list-hldr .social-list li:last-child { width: 140px!important;}
+	.partner .section-1 .partner-con figure { max-width: 260px!important; margin-right: 15px!important;}
+}
+
+@media only screen and (max-width: 720px){
+	.home .section-1 .tank-holder {  height: 340px!important;}
+	.home .section-1 .home-slider { max-width: 66%!important;}
+	.curve-holder { left: 26.7%!important;}
+	.solanegirl { left: 20%!important}
+}
+
+@media only screen and (max-width: 700px){
+	.home .section-1 .tank-holder { height: 340px!important;}
+	.home .section-3 .showmore .slider-hldr figcaption p { font-size: 16px!important;}
+	.home .section-3 .showmore .slider-hldr figcaption { padding: 0px 5px!important}
+}
+
+
+@media only screen and (max-width: 682px){
+	.social-list-hldr .social-list li:first-child{ padding-top: 10px;}
+	.social-list-hldr .social-list { text-align: center;}
+	.social-list-hldr .social-list li:first-child{ max-width: 150px!important;}
+	.social-list-hldr .social-list li:last-child { width: 170px!important;}
+	.aboutus .section-1 .curve-holder { left: 32.9%!important;}
+}
+
+@media only screen and (max-width: 668px){
+	.aboutus .section-1 .image-hldr { max-width: 69%!important;}
+	.product .section-1 .product-slider .slick-prev { left: 86%!important;}
+}
+
+@media only screen and (max-width: 629px){
+	.store-location .section-1 .map-sec .list-map figcaption { max-width: 400px!important;}
+	.list-right-global { display: none;}
+	.product .section-1 .product-slider .slick-prev{ left: 86%!important;}
+	.aboutus .section-1 .curve-holder { left: 36.9%!important;}
+}
+
+@media only screen and (max-width: 594px){
+	.blog .section-1 .blog-list li figcaption { max-width: 54%!important;}
+	.partner .section-1 .partner-con figure { max-width: 220px!important;}
+}
+
+@media only screen and (max-width: 575px){
+	.home .section-1 { height: 375px!important;}	
+	.solanegirl { height: 375px!important; left: 25%!important;}
+	.curve-holder { height: 375px!important;min-height: 375px!important; left: 31.7%!important;}
+	.home .section-3 { padding: 20px 0px 90px!important; }
+	.home .section-1 .home-slider figure { height: 315px!important;}
+	.home .section-1 .home-slider {  max-width: 73%!important;}
+	.home .section-2 { padding: 25px 40px!important; height: 300px!important;}
+
+
+	.aboutus .section-1{ height: 375px!important;}
+	.aboutus .section-1 .solanegirl { height: 375px!important; max-width: 450px!important;}
+	.aboutus .section-1 .curve-holder { height: 375px!important; min-height: 375px!important; left: 29.5%!important;}
+	.aboutus .section-1 .image-hldr { height: 300px!important;}
+
+	.home .section-1{ height: 375px!important;}
+	.home .section-1 .solanegirl { height: 375px!important; max-width: 450px!important; left: 38%!important}
+	.home .section-1 .curve-holder { height: 375px!important; min-height: 375px!important; left: 32.5%!important;}
+	.home .section-1 .image-hldr { height: 300px!important;}
+
+	.partner .section-1 .partner-con { max-width: 85%!important;}
+
+}
+
+@media only screen and (max-width: 553px){
+	.aboutus .section-1 .curve-holder { left: 31.5%!important;}
+	.home .section-1 .curve-holder { left: 34.5%!important;}
+}
+
+
+@media only screen and (max-width: 540px){
+	.store-location .section-1 .select-lc div select { max-width: 305px!important;}
+	.store-location .section-1 .select-lc div { max-width: 440px!important;}
+	.store-location .section-1 .map-sec .list-map figcaption{max-width: 320px!important;}
+}
+
+@media only screen and (max-width: 524px){
+	.blog .section-1 .blog-list li figcaption { max-width: 48%!important;}
+	.recipes .section-1 .recipe-hldr ul li figcaption h5 a { font-size: 18px!important;}
+	.recipes .section-1 .recipe-hldr ul li figcaption h5 a::after { display: none!important}
+}
+
+@media only screen and (max-width: 513px){
+	.home .section-1 .home-slider { max-width: 70%!important;}
+	.aboutus .section-1 .curve-holder { left: 35.5%!important}
+	.partner .section-1 .partner-con figure { max-width: 100%!important; float: none!important; margin: 0 auto!important; margin-bottom: 15px!important;}
+}
+
+@media only screen and (max-width: 489px){
+	.home .section-1 .solanegirl { max-width: 400px!important;}
+}
+
+@media only screen and (max-width: 485px){
+	.store-location .section-1 .map-sec .list-map figcaption { max-width: 300px!important}
+	.aboutus .section-1 .curve-holder{ left: 38.5%!important}
+	.about-txt h3 { font-size: 35px!important;}
+
+}
+
+@media only screen and (max-width: 479px){
+	.product .section-1 .product-slider .slider-hldr figure { margin: 0 auto;}
+	.product .section-1 .product-slider .slider-hldr figcaption { margin: 0 auto;}
+	.aboutus .section-1 article figure { display: block!important;}
+	.aboutus .section-1 article figcaption { display: block!important;}
+	.product .section-1 .product-slider .slick-prev {     top: 25%!important; left: 5%!important; z-index: 2;}
+	.product .section-1 .product-slider .slick-next {     top: 25%!important; left: auto!important; right: 5%!important;z-index: 2;}
+}
+
+@media only screen and (max-width: 471px){
+	.blog .section-1 .blog-list li figure { display: block!important;margin-right: 0px!important;  margin: 0 auto!important; margin-bottom: 10px!important; max-width: 250px!important;}
+	.blog .section-1 .blog-list li figcaption { max-width: 100%!important;}
+	.blog .section-1 .blog-list li { padding: 0px!important;}
+}
+
+@media only screen and (max-width: 466px) {
+	.store-location .section-1 .select-lc div select { max-width: 240px!important; background-position: right!important;}
+	.store-location .section-1 .select-lc div { max-width: 350px!important;}
+	.store-location .section-1 .select-lc div button{ max-width: 99px!important;}	
+}
+
+@media only screen and (max-width: 449px){
+	.home .section-1 { height: 290px!important;}
+	.solanegirl { height: 290px!important;}
+	.curve-holder { height: 290px!important; min-height: 290px!important;}
+	.home .section-1 .home-slider figure { height: 250px!important;}
+	.home .section-1 .solanegirl { height: 291px!important; max-width: 342px!important;}
+	.home .section-1 .curve-holder {height: 291px!important; min-height: 291px!important; left: 31.5%!important} 	
+	.recipes .section-1 .recipe-hldr ul li figcaption p { font-size: 14px!important;}
+	.recipes .section-1 .recipe-hldr ul li figcaption h5 a { font-size: 16px!important;}
+}
+
+@media only screen and (max-width: 440px) {
+	.store-location .section-1 .map-sec .list-map figcaption { max-width: 260px!important;}
+	.aboutus .section-1 .curve-holder { left: 41.5%!important;}
+}
+
+@media only screen and (max-width: 425px){
+	.home .section-1 .tank-holder { transform: translate(0, 0)!important; top: 65px!important; height: 220px!important; left: 60%!important;}
+	.home .section-2 h3 { font-size: 25px!important;}
+	.home .section-2 p { font-size: 18px!important; margin-bottom: 30px!important;}
+	.home .section-2 a { padding: 10px!important; font-size: 16px;}
+	.social-list-hldr-2 .social-list-2 > li { width: 100%!important; margin-bottom: 10px;}
+	.aboutus .section-1 article h4 { font-size: 25px!important;}
+
+	.home .section-1 { height: 265px!important;}
+	.home .section-1 .solanegirl { height: 265px!important; max-width: 300px!important; left: 35%!important;}
+	.home .section-1 .curve-holder {     height: 265px!important; min-height: 265px!important; left: 25.5%!important;}
+	.home .section-1 .home-slider { max-width: 68%!important;}
+	.home .section-1 .home-slider figure { height: 205px!important;}
+
+	.partner .section-1 .partner-con { max-width: 100%!important;}
+	.partner .section-1 .partner-con .tp-partner h3 { font-size: 30px!important}
+}
+
+@media only screen and (max-width: 400px) {
+	.store-location .section-1 .map-sec .list-map figure { margin: 0 auto; margin-bottom: 10px; display: block!important;}
+	.store-location .section-1 .map-sec .list-map figcaption{ max-width: 100%!important; padding-left: 0px!important;}
+	.store-location .section-1 .select-lc h2 { font-size: 30px!important;}
+	.product .section-1 article h2 { font-size: 30px!important;}
+	.product .section-1 article h4 { font-size: 22px!important}
+	.home .section-1 .curve-holder{ left: 27.5%!important;}
+	.recipes .section-1 .recipe-sec h2 { font-size: 30px!important;} 
+	.events .section-1 .events-sec h2 { font-size: 30px!important;}
+	.partner .section-1 .partner-sec h2 { font-size: 30px!important;}
+}
+
+@media only screen and (max-width: 400px){
+	.store-location .section-1 .select-lc div button { max-width: 60px!important;}
+	.store-location .section-1 .select-lc div { max-width: 307px!important;}
+	.blog .section-1 .blog-sec h2 { font-size: 30px!important;}
+	.recipes .section-1 .recipe-hldr ul li { width: 100%!important; padding: 0px!important; margin-bottom: 30px!important;}
+	.events .section-1 .event-list li { width: 100%!important; padding: 0px!important}
+ 
+}
+
+@media only screen and (max-width: 376px){
+	.aboutus .section-1 { height: 275px!important;}
+	.aboutus .section-1 .solanegirl { height: 275px!important;}
+	.aboutus .section-1 .curve-holder { height: 275px!important; min-height: 275px!important;}
+	.aboutus .section-1 .image-hldr {height: 225px!important; max-width: 74%!important;}
+	.about-txt { position: relative!important; left: 0!important; width: 100%; top: 0px!Important; padding: 15px; text-align: center; }
+	.about-txt h3 { color: #005092!important;}
+	.store-location .section-1 .map-sec .list-map figcaption { text-align: center;}
+	.product .section-1 .product-slider .slick-next { right: 0!important;}
+	.product .section-1 .product-slider .slick-prev { left: 0!important;}
+	.about-txt { background: rgba(225,225,225, 0.5);}
+	.home .section-1 .curve-holder { left: 30.5%!important;}
+	.home .section-2 p { margin-bottom: 50px!important;}
+	.blog .section-1 .blog-list li figure { max-width: 100%!important;}
+
+	.partner .section-1 .partner-con .tp-partner h3 { font-size: 26px!important; margin-bottom: 10px!important}
+	.partner .section-1 .partner-con .tp-partner p { font-size: 15px!important}
+	.partner .section-1 .partner-con figcaption p { font-size: 15px!important}
+}
+
+@media only screen and (max-width: 353px){
+	footer ul li figure { max-width: 65px!important; height: 60px!important; padding-top: 15px!important;}
+	footer ul li figure img { width: 29px!important; height: 27px!important;}
+
+}
+
+@media only screen and (max-width: 345px){
+	.home .section-1 .curve-holder { left: 35.5%!important}
+}
+
+@media only screen and (max-width: 340px){
+	.home .section-1 .home-slider { max-width: 68%!important;}
+}
+
+@media only screen and (max-width: 337px){
+	.store-location .section-1 .select-lc div select { max-width: 190px!important;}
+	.store-location .section-1 .select-lc div { max-width: 257px!important;}
+}
+
+@media only screen and (max-width: 331px){
+	footer ul li figcaption a { font-size: 12px!important;}
+}
+
+@media only screen and (max-width: 328px){
+	.home .section-1 .home-slider { max-width: 66%!important;}
+	.home .section-2 h3 span{ margin-left: 0px!important;}
+	.home .section-2 { padding: 25px 25px!important;}
+}
+
+@media only screen and (max-width: 321px){
+	.product .section-1 .product-slider .slick-prev { left: -10px!important;}
+	.product .section-1 .product-slider .slick-next { right: -10px!important;}
+}
