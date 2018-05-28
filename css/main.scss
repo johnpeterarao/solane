@@ -581,8 +581,38 @@ footer { background: #ebebeb; height: 70px; position: fixed; bottom: 0; width: 1
 	.list-right-global li figcaption a { color: #424242;}
 }
 
+.contact {position: relative;
+	.section-1 { padding: 0px 45px 60px; min-height: 100vh; position: relative;
+		.contact-sec { margin-bottom: 70px; margin-top: 155px;
+			h2 { font-family: "Futura-Bold"; font-size: 48px; color: #4a4a4a;}
+		}
+	}
+
+	.contct-hldr { max-width: 85%; margin: 0 auto; box-sizing: border-box;
+		> ul { width: 100%; 
+			> li { width: 49%; display: inline-block;  margin-bottom: 20px;
+				> h5 { font-family: $fontmain; color: $blue; text-transform: uppercase; font-size: 20px; margin-bottom: 10px; font-weight: bold; letter-spacing: 1px;}
+
+				> input { border: 1px solid #424242; padding-left: 15px; font-family: $fontmain; width: 100%; height: 40px; font-size: 17px;}
+
+				> textarea { width: 99%; resize: none; height: 300px; border: 1px solid #424242; font-family: $fontmain; font-size: 17px; padding-left: 15px;}
+			}
+
+			li:nth-child(odd) { padding-right: 15px;}
+			li:nth-child(even) { padding-left: 15px}
+			li:last-child { width: 100%;  padding: 0px; padding-right: 0.5%;}
+		}
+
+		.cntct-btn { padding-right: 1.4%;
+			> button { max-width: 150px; height: 40px; width: 100%; background: $blue; color: $white; text-transform: uppercase; font-family: $fontmain; letter-spacing: 1px; font-size: 18px; text-align: center; float: right;}
+		}
+
+	}
 
 
+
+	.list-right-global li figcaption a{ color: #424242;}
+}
 
 
 

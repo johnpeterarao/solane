@@ -140,6 +140,9 @@
 	.recipes .section-1 .recipe-sec { margin-top: 150px!important;}
 	.events .section-1 .events-sec { margin-top: 150px!important}
 	.partner .section-1 .partner-sec { margin-top: 150px!important;}
+	.blog-inner .section-1 .bloginner-sec { margin-top: 150px!important;}
+	.recipe-inner .section-1 .recpinner-sec { margin-top: 150px!important;}
+	.contact .section-1 .contact-sec{ margin-top: 150px!important}
 }
 
 @media only screen and (max-width: 1164px){
@@ -243,6 +246,11 @@
     .aboutus .section-1 .list-about { max-width: 450px!important; right: 0; bottom: 15px!important;}
 
     .recipes .section-1 .recipe-hldr ul li figcaption h5 a { font-size: 20px!important;}
+
+    .blog-inner .blginner-hldr h3 { font-size: 25px!important;}
+    .blog-inner .blginner-hldr figure { margin-bottom: 20px!important;}
+    .recipe-inner .recipe-hldr h3{ font-size: 25px!important;}
+    .recipe-inner .recipe-hldr h4 { font-size: 20px!important; margin-top: 20px!important;}
 }
 
 @media only screen and (max-width: 1016px){
@@ -277,6 +285,11 @@
 	.recipes .section-1 .recipe-hldr ul li figcaption h5 a:hover::after { right: -10px!important;}
 	.events .section-1 .events-sec h2 { font-size: 40px!important;}
 	.partner .section-1 .partner-sec h2 { font-size: 40px!important;}
+	.blog-inner .section-1 .bloginner-sec h2 { font-size: 40px!important;}
+	.blog-inner .blginner-hldr { max-width: 650px!important;}
+	.recipe-inner .section-1 .recpinner-sec h2 { font-size: 40px!important;}
+	.recipe-inner .recipe-hldr { max-width: 85%!important;}
+	.contact .section-1 .contact-sec h2 { font-size: 40px!important;}
 }
 
 
@@ -329,6 +342,9 @@
 	.recipes .section-1 .recipe-sec h2 { font-size: 35px!important;} 
 	.events .section-1 .events-sec h2 { font-size: 35px!important;}
 	.partner .section-1 .partner-sec h2 { font-size: 35px!important;}
+	.blog-inner .section-1 .bloginner-sec h2 { font-size: 35px!important;} 
+	.recipe-inner .section-1 .recpinner-sec h2 { font-size: 35px!important}
+	.contact .section-1 .contact-sec h2 { font-size: 35px!important;}
 
 }
 
@@ -405,6 +421,14 @@
       .partner .section-1 { padding: 20px!important}
       .partner .section-1 .partner-con { max-width: 78%!important;}
       .partner .section-1 .partner-con figure { max-width: 330px!important;}
+      .blog-inner .section-1 .bloginner-sec { margin-top: 40px!important;}
+
+      .blog-inner .section-1 { padding: 20px!important; padding-bottom: 70px!important; }
+      .recipe-inner .section-1 { padding: 20px!important; padding-bottom: 70px!important; }
+      .recipe-inner .section-1 .recpinner-sec { margin-top: 40px!important;}
+      .contact .section-1 .contact-sec{ margin-top: 40px!important;}
+      .contact .section-1{ padding: 20px!important; padding-bottom: 70px!important;}
+      .contact .contct-hldr{ max-width: 95%!important; padding-right: 10%!important;}
 }
 
 
@@ -412,6 +436,7 @@
 	.store-location .section-1 .select-lc div { float: none!important;}
 	.store-location .section-1 .select-lc h2 { float: none!important; margin-bottom: 40px;}
 	.store-location .section-1 .map-sec .list-map figcaption p { font-size: 16px!important;}
+	.blog-inner .blginner-hldr { padding-right: 4%!important;}
 }
 
 @media only screen and (max-width: 888px){
@@ -435,6 +460,7 @@
 @media only screen and (max-width: 844px){
 	 [type="checkbox"]:checked ~ ul { max-height: 327px!important;}
 	 .recipes .section-1 .recipe-hldr .recipe-list { max-width: 88%!important;}
+	 .blog-inner .blginner-hldr{ padding-right: 5%!important;}
 }
 
 @media only screen and (max-width: 838px){
@@ -479,6 +505,19 @@
     .partner .section-1 .partner-sec { margin-top: 0px!important}
     .partner .section-1 { padding: 20px 0px 0px 0px!important;}
     .partner .rights { position: relative; bottom: 0px; right: 0; text-align: center; padding: 10px 0px 20px;}
+
+    .blog-inner .section-1 .bloginner-sec { margin-top: 0px!important;}
+    .blog-inner .section-1 { padding: 20px 0px 0px 0px!important}
+    .blog-inner .rights { position: relative; bottom: 0px; right: 0; text-align: center; padding: 10px 0px 20px;}
+
+    .recipe-inner .section-1 { padding: 20px 0px 0px 0px!important; }
+    .recipe-inner .section-1 .recpinner-sec { margin-top: 0px!important}
+    .recipe-inner .rights { position: relative; bottom: 0px; right: 0; text-align: center; padding: 10px 0px 20px; }
+    .contact .section-1 .contact-sec{ margin-top: 0px!important;}
+    .contact .section-1 {  padding: 20px 0px 0px 0px!important;}
+    .contact .rights { position: relative; bottom: 0px; right: 0; text-align: center; padding: 10px 0px 20px; }
+    .contact .contct-hldr .cntct-btn { margin-bottom: 20px;}
+
 }	
 
 @media only screen and (max-width: 824px){
@@ -517,6 +556,20 @@
     .partner .list-right-global { display: none;}
     .partner .rights {
     padding: 0px 0px 120px!important;}
+
+   	.blog-inner .list-right-global { display: none;}
+   	.blog-inner .rights { padding: 0px 0px 120px!important;}
+   	.blog-inner .blginner-hldr { padding-right: 0!important; max-width: 700px!important;}
+
+   	.recipe-inner .list-right-global { display: none!important;}
+   	.recipe-inner .rights { padding: 0px 0px 120px!important;}
+   	.recipe-inner .blginner-hldr { padding-right: 0!important; max-width: 700px!important;}
+   	.recipe-inner .recipe-hldr { max-width: 100%!important;}
+
+   	.contact .list-right-global  { display: none!important;}
+   	.contact .rights { padding: 0px 0px 120px!important;}
+
+   	.contact .contct-hldr{ max-width: 100%!important; padding-right: 0%!important;}
 }
 
 @media only screen and (max-width: 822px){
@@ -679,6 +732,10 @@
 
 @media only screen and (max-width: 489px){
 	.home .section-1 .solanegirl { max-width: 400px!important;}
+	.contact .contct-hldr > ul li:nth-child(even) { padding-left: 0!important; }
+	.contact .contct-hldr > ul li:nth-child(odd) { padding-right: 0!important; }
+	.contact .contct-hldr > ul li { width: 100%!important;}
+	.contact .contct-hldr > ul > li > textarea { width: 100%!important;}
 }
 
 @media only screen and (max-width: 485px){
@@ -753,6 +810,9 @@
 	.recipes .section-1 .recipe-sec h2 { font-size: 30px!important;} 
 	.events .section-1 .events-sec h2 { font-size: 30px!important;}
 	.partner .section-1 .partner-sec h2 { font-size: 30px!important;}
+	.blog-inner .section-1 .bloginner-sec h2 { font-size: 30px!important;} 
+	.recipe-inner .section-1 .recpinner-sec h2 { font-size: 30px!important}
+	.contact .section-1 .contact-sec h2 { font-size: 30px!important;}
 }
 
 @media only screen and (max-width: 400px){

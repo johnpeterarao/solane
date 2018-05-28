@@ -1159,6 +1159,77 @@ footer {
   .recipe-inner .list-right-global li figcaption a {
     color: #424242; }
 
+.contact {
+  position: relative; }
+  .contact .section-1 {
+    padding: 0px 45px 60px;
+    min-height: 100vh;
+    position: relative; }
+    .contact .section-1 .contact-sec {
+      margin-bottom: 70px;
+      margin-top: 155px; }
+      .contact .section-1 .contact-sec h2 {
+        font-family: "Futura-Bold";
+        font-size: 48px;
+        color: #4a4a4a; }
+  .contact .contct-hldr {
+    max-width: 85%;
+    margin: 0 auto;
+    box-sizing: border-box; }
+    .contact .contct-hldr > ul {
+      width: 100%; }
+      .contact .contct-hldr > ul > li {
+        width: 49%;
+        display: inline-block;
+        margin-bottom: 20px; }
+        .contact .contct-hldr > ul > li > h5 {
+          font-family: "MyriadPro-Regular";
+          color: #00a0e2;
+          text-transform: uppercase;
+          font-size: 20px;
+          margin-bottom: 10px;
+          font-weight: bold;
+          letter-spacing: 1px; }
+        .contact .contct-hldr > ul > li > input {
+          border: 1px solid #424242;
+          padding-left: 15px;
+          font-family: "MyriadPro-Regular";
+          width: 100%;
+          height: 40px;
+          font-size: 17px; }
+        .contact .contct-hldr > ul > li > textarea {
+          width: 99%;
+          resize: none;
+          height: 300px;
+          border: 1px solid #424242;
+          font-family: "MyriadPro-Regular";
+          font-size: 17px;
+          padding-left: 15px; }
+      .contact .contct-hldr > ul li:nth-child(odd) {
+        padding-right: 15px; }
+      .contact .contct-hldr > ul li:nth-child(even) {
+        padding-left: 15px; }
+      .contact .contct-hldr > ul li:last-child {
+        width: 100%;
+        padding: 0px;
+        padding-right: 0.5%; }
+    .contact .contct-hldr .cntct-btn {
+      padding-right: 1.4%; }
+      .contact .contct-hldr .cntct-btn > button {
+        max-width: 150px;
+        height: 40px;
+        width: 100%;
+        background: #00a0e2;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: "MyriadPro-Regular";
+        letter-spacing: 1px;
+        font-size: 18px;
+        text-align: center;
+        float: right; }
+  .contact .list-right-global li figcaption a {
+    color: #424242; }
+
 .pagination-cs {
   padding: 0px;
   margin: 0;
