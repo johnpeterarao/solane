@@ -1213,14 +1213,14 @@ footer {
           margin-bottom: 10px;
           font-weight: bold;
           letter-spacing: 1px; }
-        .contact .contct-hldr > ul > li > input {
+        .contact .contct-hldr > ul > li input[type="text"], .contact .contct-hldr > ul > li input[type="email"] {
           border: 1px solid #424242;
           padding-left: 15px;
           font-family: "MyriadPro-Regular";
           width: 100%;
           height: 40px;
           font-size: 17px; }
-        .contact .contct-hldr > ul > li > textarea {
+        .contact .contct-hldr > ul > li textarea {
           width: 99%;
           resize: none;
           height: 300px;
@@ -1238,7 +1238,7 @@ footer {
         padding-right: 0.5%; }
     .contact .contct-hldr .cntct-btn {
       padding-right: 1.4%; }
-      .contact .contct-hldr .cntct-btn > button {
+      .contact .contct-hldr .cntct-btn > input[type="submit"] {
         max-width: 150px;
         height: 40px;
         width: 100%;
