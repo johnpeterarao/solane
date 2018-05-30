@@ -25,7 +25,11 @@
 
 a {
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+  outline: none; }
+
+img {
+  outline: none; }
 
 body, html, h1, h2, h3, h4, h5, h6, p, header, footer, div, article, section, aside {
   padding: 0;
@@ -149,7 +153,8 @@ input, select, textarea, button {
   max-width: 158px;
   width: 100%;
   height: 84px;
-  margin-top: -27px; }
+  margin-top: -27px;
+  z-index: 2; }
 
 .menu {
   position: absolute;
@@ -888,7 +893,7 @@ footer {
         vertical-align: text-top; }
         .blog .section-1 .blog-list li figure img {
           height: 100%;
-          object-fit: contain; }
+          object-fit: cover; }
       .blog .section-1 .blog-list li figcaption {
         display: inline-block;
         vertical-align: text-top;
@@ -981,45 +986,57 @@ footer {
         font-family: "Futura-Bold";
         font-size: 48px;
         color: #4a4a4a; }
-    .events .section-1 .event-list li {
-      width: 32%;
-      display: inline-table;
-      vertical-align: text-top;
-      padding: 0px 15px;
-      margin-bottom: 30px; }
-      .events .section-1 .event-list li figure {
-        max-width: 300px;
-        height: 200px;
-        margin: 0 auto;
-        margin-bottom: 10px; }
-        .events .section-1 .event-list li figure img {
-          height: 100%;
-          object-fit: cover; }
-      .events .section-1 .event-list li figcaption {
-        text-align: center; }
-        .events .section-1 .event-list li figcaption h4 a {
-          font-family: "Futura-Bold";
-          font-size: 22px;
-          color: #00a0e2;
-          text-decoration: none;
-          text-decoration: none; }
-        .events .section-1 .event-list li figcaption label {
-          font-weight: normal;
-          font-family: "MyriadPro-Regular";
-          font-size: 18px;
-          color: #005092;
-          margin-top: 4px;
-          margin-bottom: 3px;
-          text-transform: capitalize; }
-        .events .section-1 .event-list li figcaption h6 {
-          font-family: "MyriadPro-Regular";
-          color: #888888;
-          font-size: 14px;
-          margin-bottom: 10px; }
-        .events .section-1 .event-list li figcaption p {
-          font-size: 15px;
-          font-family: "MyriadPro-Regular"; }
-        .events .section-1 .event-list li figcaption a.view {
+    .events .section-1 .event-list {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: -webkit-box !important;
+      display: -moz-box !important;
+      display: -ms-flexbox !important;
+      display: -webkit-flex !important;
+      display: flex !important;
+      -webkit-flex-flow: row wrap;
+      justify-content: space-around;
+      outline: none !important; }
+      .events .section-1 .event-list li {
+        width: 32%;
+        padding: 0px 15px;
+        margin-bottom: 30px;
+        background: #f7f7f7;
+        position: relative;
+        padding-bottom: 50px; }
+        .events .section-1 .event-list li figure {
+          height: 220px;
+          margin: 0 auto; }
+          .events .section-1 .event-list li figure img {
+            height: 100%;
+            object-fit: cover; }
+        .events .section-1 .event-list li figcaption {
+          text-align: center;
+          padding: 20px; }
+          .events .section-1 .event-list li figcaption h4 a {
+            font-family: "Futura-Bold";
+            font-size: 18px;
+            color: #00a0e2;
+            text-decoration: none;
+            text-decoration: none; }
+          .events .section-1 .event-list li figcaption label {
+            font-weight: normal;
+            font-family: "MyriadPro-Regular";
+            font-size: 18px;
+            color: #005092;
+            margin-top: 4px;
+            margin-bottom: 3px;
+            text-transform: capitalize; }
+          .events .section-1 .event-list li figcaption h6 {
+            font-family: "MyriadPro-Regular";
+            color: #888888;
+            font-size: 14px;
+            margin-bottom: 10px; }
+          .events .section-1 .event-list li figcaption p {
+            font-size: 15px;
+            font-family: "MyriadPro-Regular"; }
+        .events .section-1 .event-list li a.view {
           text-decoration: none;
           text-transform: uppercase;
           color: #fff;
@@ -1031,8 +1048,14 @@ footer {
           margin: 0 auto;
           margin-top: 15px;
           transition: 0.5s;
-          letter-spacing: 1px; }
-        .events .section-1 .event-list li figcaption a.view:hover {
+          letter-spacing: 1px;
+          text-align: center;
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          left: 50%;
+          transform: translate(-50%, -50%); }
+        .events .section-1 .event-list li a.view:hover {
           background: #005092; }
   .events .list-right-global a {
     color: #424242; }
@@ -1281,7 +1304,8 @@ footer {
   right: 20px;
   top: 290px;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+  z-index: 3; }
   .list-right-global li {
     text-align: center;
     margin-bottom: 20px; }
